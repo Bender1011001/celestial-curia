@@ -14,13 +14,24 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
+      - name: Install TinyTeX (for PDF)
+        uses: r-lib/actions/setup-tinytex@v2
+
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Render Quarto Project
+      - name: Render Quarto Project (All Formats)
         uses: quarto-dev/quarto-actions/render@v2
         with:
-          to: html
+          to: all
+
+      - name: Upload eBook Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: celestial-curia-ebooks
+          path: |
+            _book/*.pdf
+            _book/*.epub
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

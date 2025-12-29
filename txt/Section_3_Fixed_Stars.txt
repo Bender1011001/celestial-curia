@@ -1,0 +1,76 @@
+# Section III: Expanded Fixed Star Catalogue (The Eighth Sphere)
+
+## 1. Principles of the Fixed Stars
+
+The Fixed Stars (Stellae Fixae) reside in the Eighth Sphere, beyond the planets. Their motion is due to Precession (approx. 1° every 72 years).
+
+*   **Epoch:** J2000.0 Positions.
+*   **Orbs of Influence (Lilly/Robson):**
+    *   **1st Magnitude:** 7°30' (Traditional) / 2°30' (Strict)
+    *   **2nd Magnitude:** 5°30' (Traditional) / 1°40' (Strict)
+    *   **3rd Magnitude:** 3°30' (Traditional) / 1°00' (Strict)
+    *   **4th Magnitude:** 1°30' (Traditional) / 0°30' (Strict)
+*   **Effect:** Stars primarily operate by **Conjunction** (Projected to the Ecliptic) or by **Paran** (Co-rising/Co-culminating). Aspects are rarely used except for Opposition.
+
+Key: **(B)** = Behenian Star (Medieval Magical Star).
+
+---
+
+## 2. The Catalogue of Critical Stars
+
+| Star Name | Constellation | Longitude (J2000) | Mag | Nature | Traditional Signification & Source |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Alpheratz** | Andromeda | 14°18' Aries | 2.1 | Jup/Ven | Independence, freedom, love, riches, honor. (Ptolemy) |
+| **Baten Kaitos** | Cetus | 21°57' Aries | 3.9 | Sat/Mar | Shipwreck, isolation, depression, falls, blows. (Robson) |
+| **Mirach** | Andromeda | 00°24' Taurus | 2.4 | Ven | Beauty, love, lasting marriage, brilliance. (Ptolemy) |
+| **Hamal** | Aries | 03°51' Taurus | 2.2 | Mar/Sat | Violence, cruelty, premeditated crime. Head injury. (Ptolemy) |
+| **Schedir** | Cassiopeia | 07°47' Taurus | 2.5 | Sat/Ven | Respect, decency, seriousness. (Robson) |
+| **Menkar** | Cetus | 14°19' Taurus | 2.8 | Sat | Disease, throat trouble, disgrace, ruin, beasts. (Ptolemy) |
+| **Caput Algol** **(B)** | Perseus | 26°10' Taurus | 2.1 | Sat/Jup | **The Demon Star.** Decapitation, violence, mob violence, strangulation. The most evil star in the heavens. (Ptolemy/Lilly) |
+| **Alcyone (Pleiades)** **(B)** | Taurus | 00°00' Gemini | 3.0 | Mar/Moon | Blindness, sorrow, tragedies, bereavement. (Ptolemy) |
+| **Aldebaran** **(B)** | Taurus | 09°47' Gemini | 1.0 | Mars | **Royal Star (Watcher of East).** Honor, intelligence, eloquence, but danger of violence if afflicted. (Ptolemy) |
+| **Rigel** | Orion | 16°50' Gemini | 0.3 | Jup/Mar | Military/ecclesiastical preferment, great ambition, high honors. (Ptolemy/Robson) |
+| **Bellatrix** | Orion | 20°57' Gemini | 1.7 | Mar/Mer | Military/civil honors, quick decisions, but danger of accidents. (Ptolemy) |
+| **Capella** **(B)** | Auriga | 21°51' Gemini | 0.2 | Mar/Mer | Honor, wealth, eminence, renown, public position. (Ptolemy) |
+| **Alnilam** | Orion | 23°28' Gemini | 1.8 | Jup/Sat | Fleeting public honors. (Robson) |
+| **Polaris** **(B)** | Ursa Minor | 28°34' Gemini | 2.1 | Sat/Ven | Sickness, trouble, loss, affliction. (Ptolemy) |
+| **Betelgeuse** | Orion | 28°45' Gemini | 0.8 | Mar/Mer | Martial honor, preferment, wealth. (Ptolemy) |
+| **Sirius** **(B)** | Canis Major | 14°05' Cancer | -1.4 | Jup/Mar | **The Dog Star.** High office, fame, honor, burning heat, passion, danger of dog bites. (Ptolemy) |
+| **Canopus** | Carina | 14°58' Cancer | -0.9 | Sat/Jup | Voyages, piety, scandal, violence. (Ptolemy) |
+| **Castor** | Gemini | 20°14' Cancer | 1.6 | Mer/Jup | Distinction, keen intellect, law, publishing, sudden fame and loss. (Ptolemy) |
+| **Pollux** | Gemini | 23°13' Cancer | 1.2 | Mars | Courage, cruelty, rashness, craftiness, malevolence. (Ptolemy) |
+| **Procyon** **(B)** | Canis Minor | 25°47' Cancer | 0.5 | Mar/Mer | Activity, violence, sudden success and disaster. (Ptolemy) |
+| **Praesaepe** | Cancer | 07°20' Leo | 3.7 | Mar/Moon | **The Beehive.** Blindness, disease, adventure, insolence. (Ptolemy) |
+| **Asellus Bor.** | Cancer | 07°32' Leo | 4.7 | Mar/Sun | Patience, beneficence, courage ("The Northern Donkey"). (Ptolemy) |
+| **Asellus Aus.** | Cancer | 08°43' Leo | 4.2 | Mar/Sun | Fevers, hunting, heroism ("The Southern Donkey"). (Ptolemy) |
+| **Acubens** | Cancer | 13°38' Leo | 4.3 | Sat/Mer | Activity, malevolence, liar/thief. (Robson) |
+| **Alphard** | Hydra | 27°17' Leo | 2.2 | Sat/Ven | Poison, blood poisoning, hatred by women, danger to life. (Ptolemy) |
+| **Regulus** **(B)** | Leo | 29°50' Leo | 1.3 | Mar/Jup | **Royal Star (Watcher of North).** Power, authority, great honor, but danger of fall/revenge. (Ptolemy) |
+| **Zosma** | Leo | 11°19' Virgo | 2.6 | Sat/Ven | Melancholy, fear of poison, shame, selfishness. (Ptolemy) |
+| **Denebola** | Leo | 21°37' Virgo | 2.2 | Sat/Ven | Swift judgment, despair, regrets, public disgrace. (Ptolemy) |
+| **Vindemiatrix** | Virgo | 09°56' Libra | 2.9 | Sat/Mer | **"The Widow Maker."** Widowhood, loss of partner, depression, stealing. (Robson) |
+| **Algorab** **(B)** | Corvus | 13°27' Libra | 3.1 | Mar/Sat | Destructiveness, malevolence, lying, scavenging. (Ptolemy) |
+| **Spica** **(B)** | Virgo | 23°50' Libra | 1.2 | Ven/Mar | Success, renown, riches, sweet disposition, love of art/science. (Ptolemy) |
+| **Arcturus** **(B)** | Boötes | 24°14' Libra | 0.2 | Mar/Jup | Riches, honors, high renown, self-determination. (Ptolemy) |
+| **Acrux** | Crux | 11°52' Scorpio | 1.6 | Jup | Religious beneficence, ceremony, magic, mystery. (Robson) |
+| **Alphecca** **(B)** | Corona Bor. | 12°18' Scorpio | 2.3 | Ven/Mer | Dignity, artistic talent, sorrow in love, poetry. (Ptolemy) |
+| **Zuben Elgenubi** | Libra | 15°05' Scorpio | 2.9 | Sat/Mar | **South Scale.** Malevolence, obstruction, unforgiving character, loss. (Ptolemy) |
+| **Zuben Eschamali** | Libra | 19°22' Scorpio | 2.7 | Jup/Mer | **North Scale.** Good fortune, high ambition, beneficence, honor. (Ptolemy) |
+| **Unukalhai** | Serpens | 22°05' Scorpio | 2.8 | Sat/Mar | Immorality, accidents, violence, danger of poison. (Ptolemy) |
+| **Antares** **(B)** | Scorpio | 09°46' Sagittarius | 1.2 | Mar/Jup | **Royal Star (Watcher of West).** Malevolence, destructiveness, rashness, broadmindedness. (Ptolemy) |
+| **Ras Alhague** | Ophiuchus | 22°27' Sagittarius | 2.1 | Sat/Ven | Perversion, depravity, medicinal cures, infection. (Ptolemy) |
+| **Lesath** | Scorpio | 24°01' Sagittarius | 2.8 | Mer/Mar | Danger, desperation, immorality, acid/poison. (Ptolemy) |
+| **Shaula** | Scorpio | 24°35' Sagittarius | 1.7 | Mer/Mar | Danger, desperation, immorality. (Ptolemy) |
+| **Ascella** | Sagittarius | 13°38' Capricorn | 2.7 | Jup/Mer | Good fortune, happiness. (Ptolemy) |
+| **Vega** **(B)** | Lyra | 15°19' Capricorn | 0.1 | Ven/Mer | Beneficence, ideality, hopefulness, refinement. (Ptolemy) |
+| **Nunki** | Sagittarius | 12°23' Capricorn | 2.1 | Jup/Mer | Truthfulness, optimism, religious mind. (Ptolemy) |
+| **Terebellum** | Sagittarius | 25°51' Capricorn | 4.0 | Ven/Sat | Cunning, mercenary, fortune with guilt. (Ptolemy) |
+| **Altair** | Aquila | 01°47' Aquarius | 0.9 | Mar/Jup | Boldness, confidence, sudden wealth, command. (Ptolemy) |
+| **Deneb Algedi** **(B)** | Capricorn | 23°32' Aquarius | 3.0 | Sat/Jup | Sorrow/joy mix, law, justice, glory, but eventual loss. (Ptolemy) |
+| **Sadalmelik** | Aquarius | 03°21' Pisces | 3.2 | Sat/Mer | Persecution, lawsuits, sudden destruction. (Ptolemy) |
+| **Fomalhaut** | PsA | 03°52' Pisces | 1.3 | Ven/Mer | **Royal Star (Watcher of South).** Magic, fame, occ_ultism, but innate malevolence if afflicted. (Ptolemy) |
+| **Deneb Adige** | Cygnus | 05°20' Pisces | 1.3 | Ven/Mer | Intelligence, ingenuity, learning. (Ptolemy) |
+| **Sadalsuud** | Aquarius | 23°24' Pisces | 3.1 | Sat/Mer | Trouble, disgrace. (Ptolemy) |
+| **Achernar** | Eridanus | 15°19' Pisces | 0.6 | Jup | Success in public office, beneficence, religion. (Ptolemy) |
+| **Markab** | Pegasus | 23°29' Pisces | 2.6 | Mar/Mer | Honor, but danger from fire/weapons/cuts. (Ptolemy) |
+| **Scheat** | Pegasus | 29°22' Pisces | 2.6 | Mar/Mer | **Extreme Malfortune.** Murder, suicide, drowning, imprisonment. (Ptolemy) |

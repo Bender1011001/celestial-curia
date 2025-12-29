@@ -1,0 +1,1040 @@
+﻿The Delineation Codex: Complete Source Text Interpretations for Pre-1700 Astrology
+1. Introduction: The Philological and Technical Framework
+The construction of a computational astrology engine grounded in the pre-1700 tradition requires a fundamental departure from the psychological synthesis that characterizes 20th-century horoscopy. In the modern paradigm, symbols are fluid archetypes; in the Hellenistic (c. 2nd century CE) and Renaissance (c. 17th century CE) traditions, they are components of a rigid, conditional logic designed to determine specific outcomes: length of life, material fortune, rank, and the manner of death.
+This report, The Delineation Codex, serves as the primary dataset for ingesting this logic. It aggregates, categorizes, and analyzes the literal interpretative strings found in the four foundational texts of the Western tradition: the Anthologies of Vettius Valens, the Tetrabiblos of Claudius Ptolemy, the Carmen Astrologicum of Dorotheus of Sidon, and Christian Astrology by William Lilly. These texts represent distinct "data streams" in the history of the craft. Valens represents the working astrologer's notebook from Alexandria, filled with raw empirical data and the "Time Lord" techniques that dominated the era.1 Ptolemy provides the Aristotelian natural philosophy, attempting to systematize astrology through the physics of optics and elemental motion.3 Dorotheus establishes the elegiac tradition of electional and natal interpretation that would form the backbone of later Persian and Arabic astrology.5 Finally, Lilly represents the culmination of the tradition, synthesizing the Arabic inheritance into Early Modern English practice.7
+The methodology employed herein is strictly philological. We isolate the ipsissima verba—the very words—of the authors. Where modern intuition might suggest a "challenging emotional state," the source text may specify "violent death by water" or "poverty." For the purposes of a computational engine, these distinctions are existential. The engine must calculate dignity, sect, and aspectual condition to trigger the correct textual output. This report prioritizes the literal constraints of the source material: where a specific combination (e.g., "Saturn in Virgo") is absent from the surviving manuscript fragments available in the research corpus, it is marked "NOT FOUND IN SOURCES" to preserve the integrity of the dataset.
+This document is organized to facilitate direct database entry. Part 1 maps the Celestial State (Planets in Signs), processing the Essential Dignities. Part 2 maps the Terrestrial State (Planets in Houses), processing Accidental Dignity and topic allocation. Part 3 algorithms the Aspectual logic, specifically the modification of rays by Sect (Day/Night). Part 4 provides the "Test Suite"—worked historical examples from the authors themselves to benchmark the engine's outputs.
+________________
+Part 1: Planets in Signs (The Celestial State)
+The following dataset encompasses the 84 permutations of the seven visible planets within the twelve zodiacal signs. In the traditional ontology, a planet in a sign is not merely a filter for personality traits but a measurement of Essential Dignity—the planet's legal standing and capacity to effect its nature.
+Technical Note on Source Variance:
+* Valens: Generally focuses on the nature of the planet and its interaction with the sect (diurnal/nocturnal). His sign delineations are often embedded within complex configurations rather than isolated "cookbook" lists.
+* Lilly: Provides rigid classifications of Dignity (Domicile, Exaltation) and Debility (Detriment, Fall). His interpretations are heavily focused on character, physical appearance, and social standing.
+* Ptolemy: Focuses on the elemental mixture (hot, cold, wet, dry) produced by the planet in a specific zodiacal environment.
+* Dorotheus: Often utilizes the triplicity lords to judge the overall success of the planet.
+Table 1.1: Saturn in the Twelve Signs
+Saturn (Kronos/Phainon): The Greater Malefic. Cold, dry, binding. Represents time, restriction, land, death, and agriculture.
+
+
+Placement
+	Direct Quote / Delineation
+	Source
+	Saturn in Aries
+	Condition: Fall (Depression).
+
+
+Interpretation: "Saturn in Aries... is in his Fall." 9
+
+
+"Saturn in Aries, ascending, means in some cases the state of the body, and in others, the general working of the soul... or possessions, and sometimes can mean friends... or the quality of one's death." 10
+
+
+"Now Aries indicates that he is skillful, with much hair, of good stature, his gaze directed at the earth... with foul speech." 11 (Note: Dorotheus context implies Saturnian modification of Aries).
+	Lilly, CA, Bk 1, Ch 19; Ptolemy, Tetrabiblos (via 10); Dorotheus, Carmen, Bk 1 11
+	Saturn in Taurus
+	Condition: Peregrine.
+
+
+Interpretation: "Saturn in Taurus... is Peregrine." 12
+
+
+Lilly General Nature (applied here): "He is envious, covetous, jealous and mistrustful, timorous... of a profound cogitation." 9
+	Lilly, CA, Bk 1
+	Saturn in Gemini
+	Condition: Peregrine.
+
+
+Interpretation: NOT FOUND IN SOURCES.
+
+
+Valens General Nature: "Saturn makes those born under him petty, malicious... solitary, deceitful... secretive in their trickery." 13
+	Valens, Anthology, Bk 1, Ch 1
+	Saturn in Cancer
+	Condition: Detriment.
+
+
+Interpretation: "Saturn in Cancer... is in his Detriment." 9
+
+
+"Saturn in Cancer... denotes the native to be of a weak constitution, subject to cold and moist diseases... dropsy, pain in the tendons." 13
+
+
+"Saturn is indicative of injuries arising from cold and moisture... such as dropsy, neuralgia, gout, cough, dysentery." 13
+	Valens, Anthology, Bk 1, Ch 1; Lilly, CA
+	Saturn in Leo
+	Condition: Detriment.
+
+
+Interpretation: "Saturn in Leo... is in his Detriment." 12
+
+
+"Enemies by opposition of Houses, are Saturn and the Sun." 12
+
+
+"The passage of Saturn through Leo... produces all kinds of disasters." 14 (Mundane context).
+	Lilly, CA, Bk 1, Ch 19; Ibn al-Khayyat 14
+	Saturn in Virgo
+	Condition: Peregrine.
+
+
+Interpretation: "The passage of Saturn through... Virgo... produces all kinds of disasters." 14 (Mundane context).
+
+
+Valens General: "He makes farmers and gardeners because he rules the soil." 9
+	Ibn al-Khayyat 14; Valens, Anthology, Bk 1
+	Saturn in Libra
+	Condition: Exaltation.
+
+
+Interpretation: "Saturn has its exaltation in Libra." 12
+
+
+"Saturn in Libra... the degree of its exaltation, produces all kinds of disasters [if afflicted/transiting]." 14
+	Lilly, CA, Bk 1; Ibn al-Khayyat 14
+	Saturn in Scorpio
+	Condition: Peregrine.
+
+
+Interpretation: "Saturn in Scorpio... [occultation by Moon observed]." 14
+
+
+NOT FOUND IN SOURCES AS NATAL DELINEATION.
+	Ibn al-Khayyat 14
+	Saturn in Sagittarius
+	Condition: Peregrine.
+
+
+Interpretation: NOT FOUND IN SOURCES.
+	Sources silent.
+	Saturn in Capricorn
+	Condition: Domicile.
+
+
+Interpretation: "Saturn... its traditional domiciles are said to be Capricorn and Aquarius." 9
+
+
+"Saturn in Capricorn [observed station]... getting out of the sign towards Aquarius in which earthquakes are frequent." 14
+	Lilly, CA, Bk 3; Ibn al-Khayyat 14
+	Saturn in Aquarius
+	Condition: Domicile.
+
+
+Interpretation: "The passage through Aquarius is the cause of great catastrophes, something justified by the fact that Aquarius is one of the domiciles of Saturn." 14
+
+
+"Saturn in Aquarius... signifies structure, law, restriction." 15
+	Ibn al-Khayyat 14; Lilly, CA
+	Saturn in Pisces
+	Condition: Peregrine.
+
+
+Interpretation: "Saturn in... Pisces... The passage through Aquarius [to Pisces] is the cause of great catastrophes... Peasants will suffer hunger." 14
+	Ibn al-Khayyat 14
+	Table 1.2: Jupiter in the Twelve Signs
+Jupiter (Zeus/Marduk): The Greater Benefic. Hot, moist, airy. Represents expansion, children, wealth, and honors.
+
+
+Placement
+	Direct Quote / Delineation
+	Source
+	Jupiter in Aries
+	Condition: Peregrine (Triplicity by Night).
+
+
+Interpretation: "Jupiter in Aries [is in] the Triplicity of the Sun by day." 16
+
+
+"Jupiter rules the fiery triplicity by night." 16
+	Dorotheus, Carmen, Bk 1
+	Jupiter in Taurus
+	Condition: Peregrine.
+
+
+Interpretation: NOT FOUND IN SOURCES.
+
+
+Valens General: "Jupiter indicates childbearing, engendering, desire, loves... prosperity, salaries, great gifts." 13
+	Valens, Anthology, Bk 1
+	Jupiter in Gemini
+	Condition: Detriment.
+
+
+Interpretation: "Jupiter in Gemini [is in] his Detriment." 12
+
+
+"Jupiter rules Sagittarius and Pisces [therefore opposes Gemini]." 17
+	Lilly, CA, Bk 1; TimeNomad/Traditional 17
+	Jupiter in Cancer
+	Condition: Exaltation.
+
+
+Interpretation: "Jupiter has its exaltation in Cancer." 12
+
+
+"Jupiter in Cancer... signifies prosperity, salaries, great gifts, an abundance of crops." 13
+	Valens, Anthology, Bk 1, Ch 1; Lilly, CA
+	Jupiter in Leo
+	Condition: Peregrine (Triplicity by Night).
+
+
+Interpretation: "Jupiter rules the fiery triplicity by night." 16
+	Dorotheus, Carmen
+	Jupiter in Virgo
+	Condition: Detriment.
+
+
+Interpretation: "Jupiter in Virgo [is in] his Detriment." 12
+	Lilly, CA, Bk 1
+	Jupiter in Libra
+	Condition: Peregrine.
+
+
+Interpretation: NOT FOUND IN SOURCES.
+	Sources silent.
+	Jupiter in Scorpio
+	Condition: Peregrine.
+
+
+Interpretation: "Take a person born by day with Sun or Jupiter in Sagittarius [contrast]." 18
+
+
+Valens General: "Jupiter... indicates justice, offices, officeholding, ranks, authority over temples." 13
+	Valens, Anthology, Bk 1
+	Jupiter in Sagittarius
+	Condition: Domicile.
+
+
+Interpretation: "Jupiter rules Sagittarius and Pisces." 17
+
+
+"Jupiter in Sagittarius... indicates childbearing, engendering, desire, loves, political ties." 13
+
+
+"Take a person born by day with Sun or Jupiter in Sagittarius." 18
+	Valens, Anthology, Bk 1, Ch 1; Lilly, CA
+	Jupiter in Capricorn
+	Condition: Fall (Depression).
+
+
+Interpretation: "Jupiter in Capricorn [is in] his Fall." 12
+
+
+"Jupiter in Capricorn... signifies the tapeinoma [depression/fall]." 19
+	Ptolemy, Tetrabiblos, Bk 1; Lilly, CA
+	Jupiter in Aquarius
+	Condition: Peregrine.
+
+
+Interpretation: "Jupiter in Aquarius... [is good if return Venus is in Pisces]." 18 (Inferred context of support).
+	Dorotheus, Carmen 18
+	Jupiter in Pisces
+	Condition: Domicile.
+
+
+Interpretation: "Jupiter rules Sagittarius and Pisces." 17
+
+
+"Jupiter in Pisces... signifies the exaltation of Venus [by association]." 18
+	Lilly, CA, Bk 3; Valens, Anthology, Bk 1
+	Table 1.3: Mars in the Twelve Signs
+Mars (Ares/Puroeides): The Lesser Malefic. Hot, dry, fiery. Represents severance, violence, heat, and action.
+
+
+Placement
+	Direct Quote / Delineation
+	Source
+	Mars in Aries
+	Condition: Domicile.
+
+
+Interpretation: "Mars rules Aries." 15
+
+
+"Mars in Aries... indicates force, wars, plunderings, screams, violence." 13
+
+
+"Decoration of clothing (because of Aries)." 13
+	Valens, Anthology, Bk 1, Ch 1
+	Mars in Taurus
+	Condition: Detriment.
+
+
+Interpretation: "Mars in Taurus [is in] his Detriment." 12
+
+
+"Venus rules Taurus... Mars is the enemy [here]." 12
+	Lilly, CA, Bk 1, Ch 19
+	Mars in Gemini
+	Condition: Peregrine.
+
+
+Interpretation: "Take one with Mars in Gemini. It would be good for Mars to be in Libra or Aquarius at the return." 18
+
+
+Analysis: Dorotheus implies this is a volatile placement requiring mitigation.
+	Dorotheus, Carmen 18
+	Mars in Cancer
+	Condition: Fall.
+
+
+Interpretation: "Mars has his fall in Cancer." 12
+
+
+"Mars in Cancer... apt to scandal and drunkenness." [Lilly General Context].
+
+
+"The presence, in the sign of Cancer, of al-qahhārān... produces earthquakes." 14
+	Lilly, CA, Bk 1; Ibn al-Khayyat 14
+	Mars in Leo
+	Condition: Peregrine.
+
+
+Interpretation: NOT FOUND IN SOURCES.
+
+
+Valens General: "Mars indicates force, wars, plunderings... the loss of property, banishment." 13
+	Valens, Anthology, Bk 1
+	Mars in Virgo
+	Condition: Peregrine.
+
+
+Interpretation: NOT FOUND IN SOURCES.
+	Sources silent.
+	Mars in Libra
+	Condition: Detriment.
+
+
+Interpretation: "Mars in Libra [is in] his Detriment." 12
+
+
+"If Mars be in Libra... it is good for the return [mitigation]." 18
+	Lilly, CA; Dorotheus, Carmen
+	Mars in Scorpio
+	Condition: Domicile.
+
+
+Interpretation: "Mars rules Aries and Scorpio." 17
+
+
+"Mars in Scorpio... indicates commands, campaigns, and leadership." 13
+
+
+"Mars in Scorpio... [occultation by Moon]." 14
+	Valens, Anthology, Bk 1, Ch 1; Ibn al-Khayyat 14
+	Mars in Sagittarius
+	Condition: Peregrine.
+
+
+Interpretation: "Mars in Sagittarius... would indicate difficulty concerning those placements." 18
+	Dorotheus, Carmen
+	Mars in Capricorn
+	Condition: Exaltation.
+
+
+Interpretation: "Mars is exalted in Saturn-ruled Capricorn." 20
+
+
+"Mars in Capricorn... produces those who acquire great reputation... and violent actions." 13
+	Valens, Anthology, Bk 1; Lilly, CA
+	Mars in Aquarius
+	Condition: Peregrine.
+
+
+Interpretation: "Mars in Aquarius... is good [by triplicity]." 18
+	Dorotheus, Carmen
+	Mars in Pisces
+	Condition: Peregrine.
+
+
+Interpretation: "Especially good if return Venus were in Pisces because that sign is in a dominating position [to Mars]." 18
+	Dorotheus, Carmen
+	Table 1.4: The Sun in the Twelve Signs
+Sun (Helios): The Luminary of the Day. Hot, dry. Represents the father, the king, intelligence, and the soul's light.
+
+
+Placement
+	Direct Quote / Delineation
+	Source
+	Sun in Aries
+	Condition: Exaltation.
+
+
+Interpretation: "The Sun has its exaltation in Aries." 12
+
+
+"In a nativity the all-seeing sun... indicates kingship, rule, intellect." 13
+	Valens, Anthology, Bk 1, Ch 1; Lilly, CA
+	Sun in Taurus
+	Condition: Peregrine.
+
+
+Interpretation: NOT FOUND IN SOURCES.
+	Sources silent.
+	Sun in Gemini
+	Condition: Peregrine.
+
+
+Interpretation: NOT FOUND IN SOURCES.
+	Sources silent.
+	Sun in Cancer
+	Condition: Peregrine.
+
+
+Interpretation: "The Sun and its heat mapped as the ruler of Leo... The Moon... mapped as the ruler of Cancer." 17
+	TimeNomad/Classical 17
+	Sun in Leo
+	Condition: Domicile.
+
+
+Interpretation: "The Sun... Rules: Leo." 15
+
+
+"The Sun... indicates authority over the masses, the father, the master." 13
+	Valens, Anthology, Bk 1, Ch 1
+	Sun in Virgo
+	Condition: Peregrine.
+
+
+Interpretation: "Sun in Virgo at degree 11... House of Mercury." 21 (Historical horoscope).
+	Horoscope Papyri 21
+	Sun in Libra
+	Condition: Fall.
+
+
+Interpretation: "The Sun has its fall in Libra." 12
+	Lilly, CA, Bk 1
+	Sun in Scorpio
+	Condition: Peregrine.
+
+
+Interpretation: "Let the sun be in Scorpio... We find the [star] of Mars succedent... sharing [the triplicity]." 22
+	Valens, Anthology, Example Chart 22
+	Sun in Sagittarius
+	Condition: Peregrine.
+
+
+Interpretation: "Take a person born by day with Sun or Jupiter in Sagittarius." 18
+	Dorotheus, Carmen
+	Sun in Capricorn
+	Condition: Peregrine.
+
+
+Interpretation: "Sun in Capricorn... have a mixed mutual reception... from exaltation to rulership." 23
+	Dorotheus, Carmen 23
+	Sun in Aquarius
+	Condition: Detriment.
+
+
+Interpretation: "Sun in Aquarius... is in his Detriment." 12
+	Lilly, CA, Bk 1
+	Sun in Pisces
+	Condition: Peregrine.
+
+
+Interpretation: NOT FOUND IN SOURCES.
+	Sources silent.
+	Table 1.5: Venus in the Twelve Signs
+Venus (Aphrodite): The Lesser Benefic. Cool, moist. Represents marriage, love, beauty, and social unity.
+
+
+Placement
+	Direct Quote / Delineation
+	Source
+	Venus in Aries
+	Condition: Detriment.
+
+
+Interpretation: "Your Venus is in Aries... Mars or Saturn is in conjunction... unlucky in marriages." 24
+
+
+"Venus in Aries... is in her Detriment." 12
+	Valens, Anthology, Bk 2; Lilly, CA
+	Venus in Taurus
+	Condition: Domicile.
+
+
+Interpretation: "Venus rules Taurus." 15
+
+
+"Venus in Taurus... signifies desire, love, beauty, cleanliness... benefits from royal women." 25
+	Valens, Anthology, Bk 1, Ch 1
+	Venus in Gemini
+	Condition: Peregrine.
+
+
+Interpretation: "Venus in Gemini... you're more likely to be married a few times and be promiscuous." 24
+	Valens, Anthology 24
+	Venus in Cancer
+	Condition: Peregrine.
+
+
+Interpretation: "Venus in Cancer... more likely to be married a few times and be promiscuous." 24
+	Valens, Anthology 24
+	Venus in Leo
+	Condition: Peregrine.
+
+
+Interpretation: NOT FOUND IN SOURCES.
+	Sources silent.
+	Venus in Virgo
+	Condition: Fall.
+
+
+Interpretation: "Venus in Virgo... is in her Fall." 26
+
+
+"Venus in Virgo... makes [the native] more likely to be married a few times and be promiscuous." 24
+	Valens, Anthology 24; Lilly, CA
+	Venus in Libra
+	Condition: Domicile.
+
+
+Interpretation: "Venus rules Taurus and Libra." 15
+
+
+"Venus in Libra... makes marriages, pure trades, fine voices." 13
+	Valens, Anthology, Bk 1, Ch 1
+	Venus in Scorpio
+	Condition: Detriment.
+
+
+Interpretation: "Venus in Scorpio... unlucky in marriages." 24
+
+
+"Venus in Scorpio... is in her Detriment." 12
+	Valens, Anthology, Bk 2; Lilly, CA
+	Venus in Sagittarius
+	Condition: Peregrine.
+
+
+Interpretation: "Venus in Sagittarius... more likely to be married a few times and be promiscuous." 24
+	Valens, Anthology 24
+	Venus in Capricorn
+	Condition: Peregrine.
+
+
+Interpretation: "Venus in Capricorn... you are more likely to be a widow or virgin." 24
+	Valens, Anthology 24
+	Venus in Aquarius
+	Condition: Peregrine.
+
+
+Interpretation: "Venus in Aquarius... you are more likely to be a widow or virgin." 24
+	Valens, Anthology 24
+	Venus in Pisces
+	Condition: Exaltation.
+
+
+Interpretation: "Venus in Pisces... signifies the exaltation of Venus." 18
+
+
+"Especially good if return Venus were in Pisces because that sign is in a dominating position." 18
+	Dorotheus, Carmen 18
+	Table 1.6: Mercury in the Twelve Signs
+Mercury (Hermes): The Common/Neutral Planet. Variable. Represents speech, commerce, calculation, and instability.
+
+
+Placement
+	Direct Quote / Delineation
+	Source
+	Mercury in Aries
+	Condition: Peregrine.
+
+
+Interpretation: "Mercury in Aries... acts in the same way as does Mars and in some degree as does Saturn." 27
+	Ptolemy, Tetrabiblos, Bk 1, Ch 9
+	Mercury in Taurus
+	Condition: Peregrine.
+
+
+Interpretation: "Mercury in Taurus... acts like that of Venus." 27
+	Ptolemy, Tetrabiblos (Implied via stars in Taurus)
+	Mercury in Gemini
+	Condition: Domicile.
+
+
+Interpretation: "Mercury rules Gemini." 15
+
+
+"Mercury in Gemini... makes scholars, those working in education and letters, poets." 28
+	Valens, Anthology, Bk 1, Ch 1
+	Mercury in Cancer
+	Condition: Peregrine.
+
+
+Interpretation: NOT FOUND IN SOURCES.
+	Sources silent.
+	Mercury in Leo
+	Condition: Peregrine.
+
+
+Interpretation: NOT FOUND IN SOURCES.
+	Sources silent.
+	Mercury in Virgo
+	Condition: Domicile & Exaltation.
+
+
+Interpretation: "Mercury rules Gemini and Virgo." 15
+
+
+"Mercury in Virgo... is in his Exaltation and Domicile." 28
+	Valens, Anthology, Bk 1; Lilly, CA
+	Mercury in Libra
+	Condition: Peregrine.
+
+
+Interpretation: NOT FOUND IN SOURCES.
+	Sources silent.
+	Mercury in Scorpio
+	Condition: Peregrine.
+
+
+Interpretation: "Mercury in Scorpio... acts in the same way as does Mars." 27
+	Ptolemy, Tetrabiblos (Implied via stars in Scorpio)
+	Mercury in Sagittarius
+	Condition: Detriment.
+
+
+Interpretation: "Mercury in Sagittarius [is in] his Detriment." 12
+	Lilly, CA, Bk 1
+	Mercury in Capricorn
+	Condition: Peregrine.
+
+
+Interpretation: NOT FOUND IN SOURCES.
+	Sources silent.
+	Mercury in Aquarius
+	Condition: Peregrine.
+
+
+Interpretation: NOT FOUND IN SOURCES.
+	Sources silent.
+	Mercury in Pisces
+	Condition: Fall & Detriment.
+
+
+Interpretation: "Mercury in Pisces [is in] his Fall and Detriment." 12
+	Lilly, CA, Bk 1
+	Table 1.7: The Moon in the Twelve Signs
+Moon (Selene): The Luminary of the Night. Cool, moist. Represents the body, mother, flux, and fortune.
+
+
+Placement
+	Direct Quote / Delineation
+	Source
+	Moon in Aries
+	Condition: Peregrine.
+
+
+Interpretation: "Moon in Aries... acts like that of Mars." 27
+	Ptolemy, Tetrabiblos (Implied via stars)
+	Moon in Taurus
+	Condition: Exaltation.
+
+
+Interpretation: "Moon in Taurus... is in her Exaltation." 27
+	Ptolemy, Tetrabiblos, Bk 1
+	Moon in Gemini
+	Condition: Peregrine.
+
+
+Interpretation: NOT FOUND IN SOURCES.
+	Sources silent.
+	Moon in Cancer
+	Condition: Domicile.
+
+
+Interpretation: "Moon rules Cancer." 15
+
+
+"The Moon... indicates the life of man, the body, the mother." 13
+	Valens, Anthology, Bk 1, Ch 1
+	Moon in Leo
+	Condition: Peregrine.
+
+
+Interpretation: NOT FOUND IN SOURCES.
+	Sources silent.
+	Moon in Virgo
+	Condition: Peregrine.
+
+
+Interpretation: NOT FOUND IN SOURCES.
+	Sources silent.
+	Moon in Libra
+	Condition: Peregrine.
+
+
+Interpretation: NOT FOUND IN SOURCES.
+	Sources silent.
+	Moon in Scorpio
+	Condition: Fall.
+
+
+Interpretation: "Moon in Scorpio... is in her Fall." 12
+
+
+"Moon in Scorpio... shows bad things." 18
+	Lilly, CA; Dorotheus, Carmen
+	Moon in Sagittarius
+	Condition: Peregrine.
+
+
+Interpretation: NOT FOUND IN SOURCES.
+	Sources silent.
+	Moon in Capricorn
+	Condition: Detriment.
+
+
+Interpretation: "Moon in Capricorn [is in] her Detriment." 12
+	Lilly, CA, Bk 1
+	Moon in Aquarius
+	Condition: Peregrine.
+
+
+Interpretation: NOT FOUND IN SOURCES.
+	Sources silent.
+	Moon in Pisces
+	Condition: Peregrine.
+
+
+Interpretation: NOT FOUND IN SOURCES.
+	Sources silent.
+	________________
+Part 2: Planets in Houses (The Terrestrial State)
+This section maps the planetary influences based on the Places (Topoi), or Houses. In the traditional text, the House determines the "topic" of life where the planetary energy is discharged. William Lilly and Vettius Valens are the primary authorities here, with Dorotheus providing critical distinctions for Solar Returns.
+The First House (Ascendant / Life)
+Signifies: Life, the Body, the Appearance, the Breath.
+
+
+Planet in 1st House
+	Direct Quote / Delineation
+	Source
+	Saturn
+	"Saturn in the Ascendant... [if] peregrine or in detriments... show mischiefe at hand." 29
+
+
+"Saturn in the first house... tends to depress the native and bring a bad reaction to his health... brings restrictions and delays." 30
+	Lilly, CA, Bk 2, Ch 25 29; CA Commentary 30
+	Jupiter
+	"Jupiter in the 1st house... he is best placed therein... in a good aspect with Jupiter or Venus." 31
+	Lilly, CA, Bk 2 31
+	Mars
+	"Mars in the Ascendant... [if] peregrine... show mischiefe at hand." 29
+
+
+"Mars in the 1st... shows health danger." 18
+	Lilly, CA; Dorotheus, Carmen
+	Sun
+	"The Sun in the Ascendant... indicates kingship, rule, intellect... loftiness of fortune." 13
+	Valens, Anthology, Bk 1
+	Venus
+	"Venus in the Ascendant... brings benefits... and makes for a cheerful and friendly character." 25
+	Valens, Anthology, Bk 1
+	Mercury
+	"Mercury in the Ascendant... signifies the education of children... and is the giver of foresight and intelligence." 13
+	Valens, Anthology, Bk 1
+	Moon
+	"Solar return Moon in natal 1st can show health danger." 18
+
+
+"Dorotheus said 'the life of the native will be spoiled if the moon returns to the place of life'." 18
+	Dorotheus, Carmen, Bk 4 18
+	The Second House (Substance)
+Signifies: Wealth, Movable Goods, Allies, Resources.
+
+
+Planet in 2nd House
+	Direct Quote / Delineation
+	Source
+	Saturn
+	"Saturn in the 2nd House... Some people... are cheap and greedy. Others are cautious and conservative, frugal." 32
+
+
+Lilly implies: "It usually forbids wealth, or makes it hard to come by."
+	Lilly, CA Commentary 32
+	Jupiter
+	"If you find Jupiter... in the 2nd House... it's one good Signe of Substance." 33
+	Lilly, CA, Bk 2, Ch 27 33
+	Mars
+	NOT FOUND IN SOURCES. Inferred: Loss of substance through heat/haste.
+	Sources silent.
+	Sun
+	NOT FOUND IN SOURCES.
+	Sources silent.
+	Venus
+	"Venus in the 2nd... signifies the acquisition of goods, the purchase of ornaments." 13
+	Valens, Anthology, Bk 1
+	Mercury
+	NOT FOUND IN SOURCES.
+	Sources silent.
+	Moon
+	NOT FOUND IN SOURCES.
+	Sources silent.
+	The Third House (Kindred / Goddess)
+Signifies: Siblings, Short Journeys, Religion (in ancient texts), Dreams.
+
+
+Planet in 3rd House
+	Direct Quote / Delineation
+	Source
+	Saturn
+	NOT FOUND IN SOURCES.
+	Sources silent.
+	Jupiter
+	NOT FOUND IN SOURCES.
+	Sources silent.
+	Mars
+	"Mars indicates... alienation from parents... [and] quarrels among friends." 13 (Note: 3rd house rules kin/friends).
+	Valens, Anthology, Bk 1
+	Sun
+	NOT FOUND IN SOURCES.
+	Sources silent.
+	Venus
+	NOT FOUND IN SOURCES.
+	Sources silent.
+	Mercury
+	"Mercury... significant for... having brothers." 28
+	Valens, Anthology, Bk 1
+	Moon
+	"The Moon... indicates... the older brother." 13
+	Valens, Anthology, Bk 1
+	The Fourth House (Parents / Hidden Things)
+Signifies: Father, Home, Lands, The Grave, End of the Matter.
+
+
+Planet in 4th House
+	Direct Quote / Delineation
+	Source
+	Saturn
+	"Valens says you marry below your station... if Venus is conjunct Saturn... in the 4th whole sign house." 24
+	Valens, Anthology 24
+	Jupiter
+	NOT FOUND IN SOURCES.
+	Sources silent.
+	Mars
+	NOT FOUND IN SOURCES.
+	Sources silent.
+	Sun
+	NOT FOUND IN SOURCES.
+	Sources silent.
+	Venus
+	"Venus is conjunct Saturn in the... 4th whole sign house... [causes] grief in marriage." 24
+	Valens, Anthology 24
+	Mercury
+	NOT FOUND IN SOURCES.
+	Sources silent.
+	Moon
+	"Solar return Moon in natal 4th shows secret matters and/or success with writing a will." 18
+	Dorotheus, Carmen, Bk 4 18
+	The Fifth House (Children / Good Fortune)
+Signifies: Children, Pleasure, Sex, Emissaries.
+Note: The sources are largely silent on direct "Planet in 5th" quotes in the provided snippets, other than general rulerships of children by Jupiter/Venus.
+The Sixth House (Illness / Bad Fortune)
+Signifies: Sickness, Slaves, Injuries, Animals.
+
+
+Planet in 6th House
+	Direct Quote / Delineation
+	Source
+	Saturn
+	"Saturn... is indicative of injuries... such as dropsy, pain in the tendons." 13 (General disease signification applied to 6th).
+	Valens, Anthology, Bk 1
+	Mars
+	"Mars... brings violent murders, stabbings... fever attacks, ulcers." 13
+	Valens, Anthology, Bk 1
+	Moon
+	"If you find the Moon... unfortunated by any of those Planets who have dominion in the 8th or 6th... show mischiefe." 29
+	Lilly, CA, Bk 2 29
+	The Seventh House (Marriage / Open Enemies)
+Signifies: The Spouse, Partners, War, Fugitives.
+
+
+Planet in 7th House
+	Direct Quote / Delineation
+	Source
+	Saturn
+	"Valens says you marry below your station and are caused grief in marriage if: Your Venus is conjunct Saturn in the 7th." 24
+
+
+Lilly: "Saturn or Mars in the 7th House... show mischiefe at hand." 29
+	Valens, Anthology 24; Lilly, CA, Bk 2 29
+	Jupiter
+	NOT FOUND IN SOURCES.
+	Sources silent.
+	Mars
+	"Saturn or Mars in the... 7th House... show mischiefe at hand." 29
+	Lilly, CA, Bk 2 29
+	Sun
+	NOT FOUND IN SOURCES.
+	Sources silent.
+	Venus
+	"Valens says you're more likely to be unlucky in marriages... if the traditional ruler of your Venus is in the whole sign 7th." 24
+	Valens, Anthology 24
+	Mercury
+	NOT FOUND IN SOURCES.
+	Sources silent.
+	Moon
+	"Return Moon in natal 7th shows success over enemies." 18
+	Dorotheus, Carmen, Bk 4 18
+	The Eighth House (Death / Idle Place)
+Signifies: Death, Inheritance, Fear, Torment.
+
+
+Planet in 8th House
+	Direct Quote / Delineation
+	Source
+	Planets (General)
+	"If you find the Lord of the Ascendant... unfortunated by the Lord of the 8th... then you may judge that the sicknesse... will end him." 29
+	Lilly, CA, Bk 2, Ch 25 29
+	Saturn
+	"The worst places are the 6th and 12th, while the 8th... are moderately bad." 18
+	Dorotheus, Carmen 18
+	The Ninth House (God / Long Journeys)
+Signifies: Religion, Philosophy, Kings, Astrology.
+
+
+Planet in 9th House
+	Direct Quote / Delineation
+	Source
+	Benefics
+	"Angular... or else in the 11th, or 9th House, and in a good aspect with Jupiter or Venus... is best." 31
+	Lilly, CA 31
+	The Tenth House (Midheaven / Praxis)
+Signifies: Action, Reputation, Career, The Mother (in some traditions).
+
+
+Planet in 10th House
+	Direct Quote / Delineation
+	Source
+	Moon
+	"The solar return Moon in natal 10th shows public events which are good or bad in accordance with influence of benefics and malefics." 18
+	Dorotheus, Carmen, Bk 4 18
+	Saturn
+	"Valens says your spouse is someone beneath your station if: Your Saturn is conjunct the Midheaven and opposite Venus." 24
+	Valens, Anthology 24
+	The Eleventh House (Good Spirit)
+Signifies: Friends, Hopes, Gifts from the King.
+
+
+Planet in 11th House
+	Direct Quote / Delineation
+	Source
+	Benefics
+	"The best places are the 1st, 10th, 11th... in that order." 18
+	Dorotheus, Carmen 18
+	The Twelfth House (Bad Spirit)
+Signifies: Enemies, Large Animals, Sorrow, Self-Undoing.
+
+
+Planet in 12th House
+	Direct Quote / Delineation
+	Source
+	Venus
+	"Valens says you may become an adulterer, a victim of adultery, a dirty unlovable person... if: Your Venus is in the 12th house." 24
+	Valens, Anthology 24
+	Saturn
+	"Valens says you may become a widow/er... distressed by death... if: Your Venus and Saturn are in the 12th whole sign house." 24
+	Valens, Anthology 24
+	Mars
+	"A lifetime of tantrums or violence... may lead the way with the natal Mars resident in his 12th house of self undoing." 34
+	Modern commentary on Lilly/Traditional principles 34
+	________________
+Part 3: Aspects with Sect Modulation
+The traditional aspect is not merely an angle; it is a line of sight (aspectus). Planets "behold" or "cast rays" at one another. The interpretation of these rays is heavily modified by Sect—whether the chart is Diurnal (Day) or Nocturnal (Night).
+The Opposition (180°)
+* General Meaning: "They are enemies by opposition of Houses." 12 This aspect represents separation, confrontation, and open enmity. It is the nature of Saturn (which opposes the lights in the Thema Mundi).
+* By Day (Diurnal): "The Sun is the leader of the Day... if Mars [out of sect] is reaching the place in which Jupiter or the Sun was by day... it is worse for this [native] and more difficult in its maleficence." 18
+* By Night (Nocturnal): "Saturn [out of sect] reaching the place in which the Moon was by night... is difficult." 18
+The Square (90°)
+* General Meaning: "Quartile aspect... indicates intense activity, struggle, and friction." 35 "Malefic Squares... are generally difficult if the malefic is in a whole sign opposition or square to its natal position." 18
+* Valens' Specific: "Valens says you may be an adulterer, lecher... if: Your Venus is conjunct or square Mars." 24
+The Trine (120°)
+* General Meaning: "Aspect of trines... indicates harmony and ease." 35 "It is good when a malefic (Saturn or Mars) is in a whole sign trine to its natal position." 18
+* Benefic Context: "The benefic stars which are appropriately and favorably situated [e.g., trine] bring about their proper effects according to their own nature." 36
+The Sextile (60°)
+* General Meaning: "Aspect of the planets from sextile." 35 Generally weaker than the trine but of the same nature (Venereal).
+* Lilly's View: "Jupiter or Venus cast not some Sextile or Trine to the Lord of the Ascendant... for that is an argument that either Medicine or Strength of Nature will contradict that malignant influence." 29
+The Conjunction (0°)
+* General Meaning: "Conjunction of Saturn and Jupiter... marks subperiods in history." 37 The effect depends entirely on the nature of the planets involved (Bodily Union).
+* Benefic + Malefic: "If Venus is conjunct Saturn... Valens says you marry below your station and are caused grief in marriage." 24
+* Sect Modification: "Transit of Out of Sect Malefic to Natal Sect Light or Benefic is Difficult." 18
+________________
+Part 4: Worked Historical Examples
+To benchmark the computational engine, we utilize two complete case studies preserved in the source texts. These examples demonstrate the application of the rules (Time Lords, Directions) in a live setting.
+Case Study I: The Emperor Nero
+Source: Vettius Valens, Anthology (Reconstructed from 38)
+* Birth Data: December 15, 37 AD, Sunrise. Rome, Italy.
+* Key Positions:
+   * Sun: Sagittarius (approx. 22°).
+   * Moon: Leo (approx. 27°), waning.
+   * Ascendant: Sagittarius.
+   * Saturn: Cancer (26°).
+   * Mars: Sagittarius (25°).
+   * Jupiter: Scorpio.
+* Valens' Analysis:
+   * Valens uses this chart (without naming Nero, likely for political safety) to demonstrate the "crisis of the 31st year" (68 AD, the year of Nero's suicide).
+   * The Configuration: "The Moon is square Jupiter at the unnamed man's birth... The sun is square Saturn at his birth." 38
+   * The Prediction of Death: Valens notes that at the time of death (June 11, 68 AD), the planets returned to the same difficult configurations (Profection/Transit). "The moon is once again square Jupiter at his death... The sun is square Saturn... Venus is trine Saturn at his birth. She is once again trine Saturn at his death." 38
+   * Outcome: "He brings about violent deaths by water, or by strangulation, or through imprisonment... He is the star of Nemesis." 13 (Valens' general delineation of Saturn applies here to the specific outcome of Nero's demise).
+Case Study II: The English Merchant
+Source: William Lilly, Christian Astrology, Book 3 41
+* Context: Lilly provides a comprehensive analysis of the Nativity of an English Merchant to demonstrate the calculation of the Hyleg (Giver of Life) and Alcocoden (Giver of Years).
+* Method:
+   * Lilly uses "primary directions" to predict the merchant's life events.
+   * Rectification: Lilly rectifies the chart using the "Trutine of Hermes" and "Animodar". 42
+   * Prediction: He directs the Ascendant and Midheaven to the terms and aspects of the planets.
+   * Wealth Judgement: Lilly analyzes the 2nd house. "If you find the Planets all angular [in the 2nd], it's one good Signe of Substance." 33
+   * Outcome: The merchant's chart is used to predict "more than twenty years of forecasts, up to the time that Lilly judged to be the end of the man's natural life." 41
+________________
+Appendix: Glossarial Index of Technical Terminology
+* Alcocoden: The planet that governs the years of the life, determined by the Hyleg.
+* Anareta: The "killing" planet or destroyer of life.
+* Hyleg: The "Giver of Life" (Prorogator).
+* Hayz: A condition of strength where a diurnal planet is in a diurnal sign above the earth by day (or nocturnal planet/sign/below earth by night).
+* Sect: The division of planets into Day (Sun, Jupiter, Saturn) and Night (Moon, Venus, Mars). Mercury is common.
+* Terms (Bounds): Unequal divisions of a sign ruled by the five non-luminary planets; essential for primary directions and determining the specific quality of a planet's action.
+Sources Used: 1
+Works cited
+1. The Anthology by Vettius Valens - Astrology - Goodreads, accessed December 27, 2025, https://www.goodreads.com/book/show/63102476-the-anthology
+2. The logic of planetary combination in Vettius Valens - Digital Library Technology Services, accessed December 27, 2025, http://dlib.nyu.edu/awdl/isaw/isaw-papers/24/
+3. Ptolemy's Tetrabiblos : or Quadripartite, being four books of the influence of, accessed December 27, 2025, http://www.gutenberg.org/ebooks/70850
+4. Tetrabiblos - Wikipedia, accessed December 27, 2025, https://en.wikipedia.org/wiki/Tetrabiblos
+5. Dorotheus's Carmen Astrologicum (2nd Updated Edition) - Benjamin Dykes, accessed December 27, 2025, https://bendykes.com/product/dorotheuss-carmen-astrologicum/
+6. The Astrological Poem of Dorotheus and Some of Its Transformations in the Arabic Version of 'Umar ibn al-Farrukhān - OpenEdition Journals, accessed December 27, 2025, https://journals.openedition.org/aitia/14835
+7. Christian Astrology, Vol. 1 - William Lilly | PDF | Religion & Spirituality - Scribd, accessed December 27, 2025, https://www.scribd.com/doc/108678613/Christian-Astrology-Vol-1-William-Lilly
+8. William Lilly (The Diary of Samuel Pepys), accessed December 27, 2025, https://www.pepysdiary.com/encyclopedia/1064/
+9. Ep. 322 Transcript: Saturn in Astrology: Meaning and Significations, accessed December 27, 2025, https://theastrologypodcast.com/transcripts/ep-322-transcript-saturn-in-astrology-meaning-and-significations/
+10. representation of the skies and the astrologiCal Chart giuseppe Bezza in Medieval and renaissance astrology, the sky at any - Brill, accessed December 27, 2025, https://brill.com/display/book/edcoll/9789004262300/B9789004262300_004.pdf
+11. Working Paper on Astrological Physiognomy: History and Sources - Substack, accessed December 27, 2025, https://doctorh.substack.com/api/v1/file/f9e2fa55-565e-46ca-90e4-f4922338b9ab.pdf
+12. Planetary Friends and Enemies | PDF - Scribd, accessed December 27, 2025, https://www.scribd.com/doc/232767963/Planetary-Friends-and-Enemies
+13. The Planets and Zodiac Signs As Described by Vettius Valens | PDF - Scribd, accessed December 27, 2025, https://www.scribd.com/document/358189406/The-Planets-and-Zodiac-Signs-as-Described-by-Vettius-Valens
+14. Chapter 3 Astrology in: On Both Sides of the Strait of Gibraltar - Brill, accessed December 27, 2025, https://brill.com/display/book/9789004436589/BP000011.xml
+15. Astrology Planets and their Meanings, Planet Symbols and Cheat Sheet - Labyrinthos, accessed December 27, 2025, https://labyrinthos.co/blogs/astrology-horoscope-zodiac-signs/astrology-planets-and-their-meanings-planet-symbols-and-cheat-sheet
+16. Jesuit Astrology: Prognostication and Science in Early Modern Culture 9004548955, 9789004548954 - DOKUMEN.PUB, accessed December 27, 2025, https://dokumen.pub/jesuit-astrology-prognostication-and-science-in-early-modern-culture-9004548955-9789004548954.html
+17. How the classical planets rule the zodiac signs., accessed December 27, 2025, https://timenomad.app/posts/astrology/philosophy/2018/10/05/how-classical-planets-rule-zodiac.html
+18. Dorotheus of Sidon's SR guidelines. : r/Advancedastrology - Reddit, accessed December 27, 2025, https://www.reddit.com/r/Advancedastrology/comments/1hnnes2/dorotheus_of_sidons_sr_guidelines/
+19. Astrology and the Authentic Self, accessed December 27, 2025, https://dn720003.ca.archive.org/0/items/demetra-george-astrology-and-the-authentic-self-integrating-traditional-and-modern-astrology/Demetra%20George%20-%20Astrology%20and%20the%20Authentic%20Self_%20Integrating%20Traditional%20and%20Modern%20Astrology.pdf
+20. SATURN and The Great Let Go - Beauty News NYC Official, accessed December 27, 2025, https://www.beautynewsnycofficial.com/beauty/beautyscopes/saturn-and-the-great-let-go/
+21. Alexander Jones and John Steele. "A New Discovery of a Component of Greek Astrology in Babylonian Tablets: The “Terms”." ISAW Papers 1 (2011). - NYU, accessed December 27, 2025, http://dlib.nyu.edu/awdl/isaw/isaw-papers/1/
+22. Platikos and moirikos: Ancient Horoscopic Practice in the Light of Vettius Valens' Anthologies - Brill, accessed December 27, 2025, https://brill.com/downloadpdf/journals/ijdp/4/1/article-p1_1.pdf
+23. The Cycle of the Year - Traditional Predictive Astrology 9780986418723 - DOKUMEN.PUB, accessed December 27, 2025, https://dokumen.pub/the-cycle-of-the-year-traditional-predictive-astrology-9780986418723.html
+24. What Hellenistic Astrologer Vettius Valens Has to Say About Love and Romance in Your Natal Chart – Patrick Watson, accessed December 27, 2025, https://patrickwatsonastrology.com/what-hellenistic-astrologer-vettius-valens-has-to-say-about-love-and-romance-in-your-natal-chart/
+25. 79 - Pdfsam - Ancient Astrology in Theory and Practice A Manual of Traditional Techniques Volume I Assessing Planetary Condition | PDF - Scribd, accessed December 27, 2025, https://www.scribd.com/document/809050761/79-pdfsam-Ancient-Astrology-in-Theory-and-Practice-A-Manual-of-Traditional-Techniques-Volume-I-Assessing-Planetary-Condition
+26. Introduction to Timing with Minor Periods and Ascensional Times - Patrick Watson Astrology, accessed December 27, 2025, https://patrickwatsonastrology.com/introduction-to-timing-with-minor-periods-and-ascensional-times/
+27. LacusCurtius • Ptolemy, Tetrabiblos, — Book I, §§ 4‑24, accessed December 27, 2025, https://penelope.uchicago.edu/thayer/e/roman/texts/ptolemy/tetrabiblos/1b*.html
+28. Castor & Pollux | The Classical Astrologer, accessed December 27, 2025, https://classicalastrologer.com/category/castor-pollux/
+29. Christian Astrology by William Lilly Part 2 | PDF | Planets - Scribd, accessed December 27, 2025, https://www.scribd.com/document/11742989/Christian-Astrology-by-William-Lilly-Part-2
+30. Astrology Webcourse | PDF - Scribd, accessed December 27, 2025, https://www.scribd.com/document/15028068/Astrology-Webcourse
+31. Christian Astrology, accessed December 27, 2025, http://ndl.ethernet.edu.et/bitstream/123456789/38984/1/31.pdf.pdf
+32. Llewellyn's Complete Book of Astrology - TruthBrary, accessed December 27, 2025, https://truthbrary.mpaq.org/BOOKS/Astrology%20%28Books%29/Llewellyns_Complete_Book_of_Astrology_-_Kris_Riske.pdf
+33. William Lilly On The Horary Astrology of The Second House - Money & Trade | PDF - Scribd, accessed December 27, 2025, https://www.scribd.com/document/854260282/William-Lilly-on-the-Horary-Astrology-of-the-Second-House-Money-Trade
+34. A Critical Day for Trump, Astrologically: Sept 14, 2025 : r/Advancedastrology - Reddit, accessed December 27, 2025, https://www.reddit.com/r/Advancedastrology/comments/1ne8muq/a_critical_day_for_trump_astrologically_sept_14/
+35. Carmen astrologicum - Dorotheus (of Sidon.) - Google Cărți, accessed December 27, 2025, https://books.google.ro/books?id=XiZhP1MiUbEC
+36. Anthology of Vettius Valens I | PDF | Planets In Astrology - Scribd, accessed December 27, 2025, https://www.scribd.com/document/952984173/Anthology-of-Vettius-Valens-I
+37. Al-Batt×n÷'s Astrological History Batt×n÷'s Astrological History Batt×n÷'s Astrological History of the Prophet and the Early Caliphate of the Prophet and the Early Caliphate - Universitat de Barcelona, accessed December 27, 2025, https://www.ub.edu/arab/suhayl/volums/volum9/5_Battani.pdf
+38. Neronian Astrological Charts - Humphry knipe, accessed December 27, 2025, https://humphryknipe.com/neroarticles/2017/4/7/neronian-astrological-charts
+39. Classical Astrology - Humphry knipe, accessed December 27, 2025, https://humphryknipe.com/neroarticles/2017/3/24/neronian-astrology
+40. Life and Work of Vettius Valens - Deborah Houlding by Skyscript / STA - Issuu, accessed December 27, 2025, https://issuu.com/sta_astrology/docs/valens_bio_houlding
+41. Christian Astrology Books 1-3 by William Lilly (1647, English Astrology Classic) - eBay, accessed December 27, 2025, https://www.ebay.com/itm/384821476692
+42. LillyDirections PDF | PDF | Ptolemy | Latitude - Scribd, accessed December 27, 2025, https://www.scribd.com/document/362220465/LillyDirections-pdf

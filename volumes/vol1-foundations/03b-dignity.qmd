@@ -1,0 +1,131 @@
+# Essential Dignity
+
+## Chapter 7: Essential Dignities
+
+and Debilities ### Table of Domiciles and Detriments for All Seven Classical Planets  
+\[Please reference sources\]\[2\]\[5\]\[6\]\[9\]\[49\] for the complete traditional system. In traditional  astrology, each of the seven classical planets rules two zodiacal signs, with one ruled during the  day and one during the night in some schemes, though the modern approach assigns them  equally. A planet in its domicile (the sign it rules) achieves its greatest expression and receives  \+5 points in the dignity calculation. A planet in detriment (the sign opposite to its domicile) is  debilitated and receives -5 points in the dignity calculation, representing the weakest possible  condition of essential dignity. 
+
+| Planet | Domicile Sign 1 | Domicile Sign 2 | Detriment Sign 1 | Detriment Sign 2 | |--------|-----------------|-----------------|------------------|------------------| 
+
+| Sun | Leo | — | Aquarius | — | 
+
+| Moon | Cancer | — | Capricorn | — | 
+
+| Mercury | Gemini | Virgo | Sagittarius | Pisces | 
+
+| Venus | Taurus | Libra | Aries | Scorpio | 
+
+| Mars | Aries | Scorpio | Libra | Taurus | 
+
+| Jupiter | Sagittarius | Pisces | Gemini | Virgo | 
+
+| Saturn | Capricorn | Aquarius | Cancer | Leo | 
+
+### Table of Exaltations and Falls for All Seven Classical Planets 
+
+\[Please reference sources\]\[2\]\[5\]\[6\]\[9\]\[49\] for the complete traditional system. In traditional  astrology, each planet has a sign of exaltation where it receives heightened power and  influence, receiving \+4 points in the dignity calculation. The sign opposite to the exaltation is the  sign of fall, where the planet is weakened, receiving -4 points in the dignity calculation. The  relationship between exaltation and fall is perfectly opposite, with the two conditions mirroring  each other across the zodiac wheel. 
+
+| Planet | Exaltation Sign | Fall Sign | 
+
+|--------|-----------------|-----------| 
+
+| Sun | Aries | Libra | 
+
+| Moon | Taurus | Scorpio | 
+
+| Mercury | Virgo | Pisces | 
+
+| Venus | Pisces | Virgo | 
+
+| Mars | Capricorn | Cancer | 
+
+| Jupiter | Cancer | Capricorn | 
+
+| Saturn | Libra | Aries | 
+
+### Table of Triplicity Rulers (Dorothean System) 
+
+\[Please reference sources\]\[31\]\[34\] for the complete traditional system of triplicities. The  triplicities divide the zodiac into four groups of three signs based on the classical elements (Fire,  Earth, Air, Water). Each triplicity has three planetary rulers—one for day charts, one for night  charts, and one for mixed or participating rulership. A planet in its triplicity receives \+3 points in   
+the dignity calculation. The triplicity system differs from the modern system, with the Dorothean  system being the most widely accepted in classical texts. 
+
+| Triplicity | Element | Day Ruler | Night Ruler | Participating Ruler | 
+
+|------------|---------|-----------|-------------|-------------------| 
+
+| Fire | Aries, Leo, Sagittarius | Sun | Jupiter | Saturn | 
+
+| Earth | Taurus, Virgo, Capricorn | Venus | Moon | Mars | 
+
+| Air | Gemini, Libra, Aquarius | Saturn | Mercury | Jupiter | 
+
+| Water | Cancer, Scorpio, Pisces | Venus | Mars | Moon | 
+
+### Table of Terms (Egyptian System) 
+
+The bounds or terms are subdivisions of each zodiacal sign into five unequal regions, each  ruled by one of the five non-luminary planets\[16\]\[32\]\[35\]\[44\]\[47\]. A planet in its own terms  receives \+2 points in the dignity calculation. The Egyptian terms system, also known as the  Babylonian terms in recent scholarship, differs from both the Ptolemaic and Chaldean systems  but has proven most effective in practice. The boundaries vary by sign, with each planetary ruler  receiving a different number of degrees based on empirical observation and ancient omen  literature. 
+
+| Sign | 0°–6° | 6°–12° | 12°–20° | 20°–25° | 25°–30° | 
+
+|------|-------|--------|---------|---------|---------| 
+
+| Aries | Jupiter | Venus | Mercury | Mars | Saturn | 
+
+| Taurus | Mercury | Moon | Saturn | Jupiter | Venus | 
+
+| Gemini | Jupiter | Mars | Sun | Venus | Mercury | 
+
+| Cancer | Venus | Mercury | Moon | Saturn | Jupiter | 
+
+| Leo | Saturn | Jupiter | Mars | Sun | Venus | 
+
+| Virgo | Sun | Venus | Mercury | Saturn | Moon | 
+
+| Libra | Moon | Saturn | Jupiter | Mercury | Venus | 
+
+| Scorpio | Mars | Sun | Venus | Mercury | Saturn | 
+
+| Sagittarius | Mercury | Moon | Saturn | Jupiter | Venus | 
+
+| Capricorn | Jupiter | Mars | Sun | Venus | Mercury | 
+
+| Aquarius | Mercury | Jupiter | Venus | Saturn | Moon | 
+
+| Pisces | Saturn | Jupiter | Mars | Sun | Venus | 
+
+### Table of Faces or Decans (Chaldean System) 
+
+The faces or decans are ten-degree subdivisions of each zodiacal sign, with each decan ruled  by a planet in the Chaldean order\[38\]\[41\]\[49\]. A planet in its own face receives \+1 point in the  dignity calculation. The Chaldean order follows the traditional sequence of planetary spheres  from slowest-moving (Saturn) to fastest-moving (Moon): Saturn, Jupiter, Mars, Sun, Venus,  Mercury, Moon. This sequence repeats throughout the zodiac, with each decan receiving  rulership according to this fixed rotation.  
+| Sign | 0°–10° Decan 1 | 10°–20° Decan 2 | 20°–30° Decan 3 | 
+
+|------|----------------|-----------------|-----------------| 
+
+| Aries | Mars | Sun | Venus | 
+
+| Taurus | Mercury | Moon | Saturn | 
+
+| Gemini | Jupiter | Mars | Sun | 
+
+| Cancer | Venus | Mercury | Moon | 
+
+| Leo | Saturn | Jupiter | Mars | 
+
+| Virgo | Sun | Venus | Mercury | 
+
+| Libra | Moon | Saturn | Jupiter | 
+
+| Scorpio | Mars | Sun | Venus | 
+
+| Sagittarius | Mercury | Moon | Saturn | 
+
+| Capricorn | Jupiter | Mars | Sun | 
+
+| Aquarius | Venus | Mercury | Moon | 
+
+| Pisces | Saturn | Jupiter | Mars | 
+
+## Section Four:
+
+### The Socio-Biological Rationale of the Terms
+The Egyptian Terms system follows a distinct logic of entropy. Note that the malefics (Mars and Saturn) are consistently placed at the *end* of the signs (the final degrees). This reflects the empirical reality that all physical cycles—whether biological, political, or material—conclude with decay (Saturn) or severance (Mars). The "Terms" differ from the "Signs" because they map the *process* of a planet moving through a domain, inevitably encountering the forces of entropy as it concludes its journey.
+
+

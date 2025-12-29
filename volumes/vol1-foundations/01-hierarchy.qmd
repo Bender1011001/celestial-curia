@@ -1,4 +1,5 @@
-# The Celestial Hierarchy
+# Part I: Foundations of the Celestial Science
+
 
 ## Chapter 1: The Architecture of Destiny
 
@@ -7,4 +8,3 @@ The human impulse to correlate terrestrial events with celestial movements repre
 This report provides a comprehensive technical and historical analysis of astrology. It moves  beyond surface -level descriptions to explore the specific mechanisms of chart construction,  the divergence of zodiacal systems (Tropical vs. Sidereal), the intricate mathematics of  predictive techniques (Dashas, Progressions), and the psychological phenomena that sustain  belief in the face of scientific falsification. By synthesizing historical scholarship with  technical manuals and comparative analysis, this document aims to deconstruct the "celestial  machine" that has governed human perception of destiny for four millennia. 
 
 2\.
-

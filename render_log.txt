@@ -1,0 +1,83 @@
+
+[ 1/20] index.qmd
+
+[ 2/20] volumes\vol1-foundations\01-hierarchy.qmd
+
+[ 3/20] volumes\vol1-foundations\02-cosmos.qmd
+
+[ 4/20] volumes\vol1-foundations\03-sect.qmd
+
+[ 5/20] volumes\vol1-foundations\04-luminaries.qmd
+
+[ 6/20] volumes\vol1-foundations\05-benefics.qmd
+
+[ 7/20] volumes\vol1-foundations\06-malefics.qmd
+
+[ 8/20] volumes\vol2-places\11-houses.qmd
+
+[ 9/20] volumes\vol2-places\12-joys.qmd
+
+[10/20] volumes\vol3-dynamics\14-aspects.qmd
+
+[11/20] volumes\vol3-dynamics\15-bonification.qmd
+
+[12/20] volumes\vol4-prediction\17-timelords.qmd
+
+[13/20] volumes\vol4-prediction\18-profections.qmd
+
+[14/20] volumes\vol4-prediction\19-zodiacal-releasing.qmd
+
+[15/20] volumes\vol5-applied\22-natal.qmd
+
+[16/20] volumes\vol5-applied\23-electional.qmd
+
+[17/20] volumes\vol5-applied\24-theurgy.qmd
+
+[18/20] volumes\vol5-applied\25-mundane.qmd
+
+[19/20] volumes\appendices\glossary.qmd
+
+[20/20] volumes\appendices\tables.qmd
+
+pandoc 
+  to: latex
+  output-file: index.tex
+  standalone: true
+  toc: true
+  number-sections: true
+  top-level-division: chapter
+  pdf-engine: lualatex
+  variables:
+    graphics: true
+    tables: true
+  default-image-extension: pdf
+  
+metadata
+  crossref:
+    chapters: true
+  documentclass: scrbook
+  papersize: letter
+  block-headings: true
+  citation-style: chicago-author-date.csl
+  title: The Celestial Curia
+  subtitle: The Master Book of Traditional Astrology
+  author: Celestial Curia Research Group
+  date: '2025-12-28T22:26:49-08:00'
+  
+
+Rendering PDF
+running lualatex - 1
+  This is LuaHBTeX, Version 1.22.0 (TeX Live 2025) 
+   restricted system commands enabled.
+  
+running lualatex - 2
+  This is LuaHBTeX, Version 1.22.0 (TeX Live 2025) 
+   restricted system commands enabled.
+  
+running lualatex - 3
+  This is LuaHBTeX, Version 1.22.0 (TeX Live 2025) 
+   restricted system commands enabled.
+  
+
+Output created: _book\The-Celestial-Curia.pdf
+

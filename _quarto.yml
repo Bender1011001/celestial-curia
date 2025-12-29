@@ -8,40 +8,9 @@ book:
   author: "Celestial Curia Research Group"
   date: last-modified
   search: true
-  repo-url: "https://github.com/celestial-curia/master-book"
-  repo-actions: [edit, issue]
   chapters:
     - index.qmd
-    - part: "Volume I: The Constitution of the Heavens"
-      chapters:
-        - volumes/vol1-foundations/01-hierarchy.qmd
-        - volumes/vol1-foundations/02-cosmos.qmd
-        - volumes/vol1-foundations/03-sect.qmd
-        - volumes/vol1-foundations/04-luminaries.qmd
-        - volumes/vol1-foundations/05-benefics.qmd
-        - volumes/vol1-foundations/06-malefics.qmd
-    - part: "Volume II: The Doctrine of the Sphere"
-      chapters:
-        - volumes/vol2-places/11-houses.qmd
-        - volumes/vol2-places/12-joys.qmd
-    - part: "Volume III: The Dynamics of Interaction"
-      chapters:
-        - volumes/vol3-dynamics/14-aspects.qmd
-        - volumes/vol3-dynamics/15-bonification.qmd
-    - part: "Volume IV: The Art of Prediction"
-      chapters:
-        - volumes/vol4-prediction/17-timelords.qmd
-        - volumes/vol4-prediction/18-profections.qmd
-        - volumes/vol4-prediction/19-zodiacal-releasing.qmd
-    - part: "Volume V: Applied Astrology and Theurgy"
-      chapters:
-        - volumes/vol5-applied/22-natal.qmd
-        - volumes/vol5-applied/23-electional.qmd
-        - volumes/vol5-applied/24-theurgy.qmd
-        - volumes/vol5-applied/25-mundane.qmd
-  appendices:
-    - volumes/appendices/glossary.qmd
-    - volumes/appendices/tables.qmd
+    - complete_reference.qmd
 
 format:
   html:
@@ -51,7 +20,8 @@ format:
   pdf:
     documentclass: scrbook
     keep-tex: true
-    citation-style: chicago-author-date.csl
+    toc: true
+    number-sections: true
   epub:
     toc: true
     number-sections: true

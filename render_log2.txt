@@ -1,0 +1,39 @@
+
+[1/2] index.qmd
+
+[2/2] complete_reference.qmd
+
+YAML parse exception at line 11, column 0:
+did not find expected <document start>
+pandoc 
+  to: latex
+  output-file: index.tex
+  standalone: true
+  toc: true
+  number-sections: true
+  top-level-division: chapter
+  shift-heading-level-by: -1
+  pdf-engine: lualatex
+  variables:
+    graphics: true
+    tables: true
+  default-image-extension: pdf
+  
+metadata
+  crossref:
+    chapters: true
+  documentclass: scrbook
+  papersize: letter
+  block-headings: true
+  title: The Celestial Curia
+  subtitle: The Master Book of Traditional Astrology
+  author: Celestial Curia Research Group
+  date: '2025-12-28T23:07:43-08:00'
+  
+Error running Lua:
+YAML parse exception at line 11, column 0:
+did not find expected <document start>
+stack traceback:
+	C:\Program Files\Quarto\share\pandoc\datadir\readqmd.lua:170: in function 'readqmd.readqmd'
+	C:\Program Files\Quarto\share\filters\qmd-reader.lua:13: in function 'Reader'
+WARN: Error encountered when rendering files

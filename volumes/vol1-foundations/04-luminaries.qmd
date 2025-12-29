@@ -1,41 +1,150 @@
-# The Luminaries: Sun and Moon
+## Chapter 7: Essential Dignities
 
-6. The Sun: The Luminary of Sect and Authority
-The Sun (Helios) is the "mind of the universe" (mens mundi). Its sign placement determines the vitality and the "rank" of the native.
-6.1 The Sun in the Signs of Dignity
-Sun in Aries (Exaltation)
-* Firmicus Maternus: Exalted at 19° Aries.8 It signifies "kings," "emperors," and "gold." It is the height of solar power.
-* Rhetorius: "Brings the vernal change... serene air." It signifies "vitality," "growth," and "success in youth".11
-* Abu Ma'shar: "Like a King in his kingdom." It extends the "years of the reign" and grants "victory".12
-* Paulus Alexandrinus: Sun rules the second decan of Aries (10-20°).4
-Sun in Leo (Domicile)
-* Firmicus Maternus: The Sun rules Leo, the 15° of which is the Sun's position in the Thema Mundi.1 It signifies "stability," "honors," and "public fame."
-* Al-Biruni: "Tall trees," "gold," "palaces." It is a "Half-Voiced" sign, indicating authority that does not need to shout to be heard.
-6.2 The Sun in the Other Triplicities
-Sun in Libra (Fall)
-* Firmicus Maternus: The Sun is depressed (opposite Aries). It indicates "short life" (if afflicted), "loss of honors," or "subservience." The light is diminishing (Autumnal Equinox).
-* Rhetorius: "Brings the autumnal tropic... air turns colder".11 Signifies a "cooling" of fortunes in middle age.
-Sun in Aquarius (Detriment)
-* Firmicus Maternus: Opposite Leo. The Sun is in the sign of Saturn (darkness/cold). It signifies "enemies," "exile," and "health issues" (heart/circulation).
-* Al-Biruni: Aquarius is the "enemy" of the Sun. It signifies "opposition to authority" or "rebellion."
-________________
+and Debilities ### Table of Domiciles and Detriments for All Seven Classical Planets  
+[Please reference sources][2][5][6][9][49] for the complete traditional system. In traditional  astrology, each of the seven classical planets rules two zodiacal signs, with one ruled during the  day and one during the night in some schemes, though the modern approach assigns them  equally. A planet in its domicile (the sign it rules) achieves its greatest expression and receives  \+5 points in the dignity calculation. A planet in detriment (the sign opposite to its domicile) is  debilitated and receives -5 points in the dignity calculation, representing the weakest possible  condition of essential dignity. 
 
-9. The Moon: The Luminary of Body and Fortune
-The Moon (Selene) represents the physical body, the mother, and the fluctuations of fortune.
-9.1 Moon in the Signs of Dignity
-Moon in Taurus (Exaltation)
-* Firmicus Maternus: Exalted at 3° Taurus.8 "Great good fortune," "wealth from the earth," "stable health."
-* Al-Biruni: "Cattle," "fertile land," "white stones," "silver".6
-* Paulus Alexandrinus: Moon rules the second decan of Taurus.4
-Moon in Cancer (Domicile)
-* Firmicus Maternus: The Thema Mundi position.1 "High birth," "many voyages," "popularity."
-* Paulus Alexandrinus: Moon rules the third decan of Cancer.
-* Rhetorius: " Sailors," "midwives," "public figures."
-9.2 Moon in the Signs of Debility
-Moon in Scorpio (Fall)
-* Firmicus Maternus: Depressed at 3° Scorpio. "Sickness," "danger from water," "treachery of women." The Moon is "besieged" by the martial waters of Scorpio.
-* Abu Ma'shar: Cold/Moist Moon in Cold/Moist/Martial sign. Excessive moisture leading to "rot" or "corruption."
-Moon in Capricorn (Detriment)
-* Firmicus Maternus: Opposite Cancer. "Thin body," "chronic illness," "poverty in early life." The Saturnine restriction "freezes" the Lunar flow.
-* Al-Biruni: "Goats," "climbing dangerous places," "exile."
-________________
+| Planet | Domicile Sign 1 | Domicile Sign 2 | Detriment Sign 1 | Detriment Sign 2 | |--------|-----------------|-----------------|------------------|------------------| 
+
+| Sun | Leo | — | Aquarius | — | 
+
+| Moon | Cancer | — | Capricorn | — | 
+
+| Mercury | Gemini | Virgo | Sagittarius | Pisces | 
+
+| Venus | Taurus | Libra | Aries | Scorpio | 
+
+| Mars | Aries | Scorpio | Libra | Taurus | 
+
+| Jupiter | Sagittarius | Pisces | Gemini | Virgo | 
+
+| Saturn | Capricorn | Aquarius | Cancer | Leo | 
+
+### Table of Exaltations and Falls for All Seven Classical Planets 
+
+[Please reference sources][2][5][6][9][49] for the complete traditional system. In traditional  astrology, each planet has a sign of exaltation where it receives heightened power and  influence, receiving \+4 points in the dignity calculation. The sign opposite to the exaltation is the  sign of fall, where the planet is weakened, receiving -4 points in the dignity calculation. The  relationship between exaltation and fall is perfectly opposite, with the two conditions mirroring  each other across the zodiac wheel. 
+
+| Planet | Exaltation Sign | Fall Sign | 
+
+|--------|-----------------|-----------| 
+
+| Sun | Aries | Libra | 
+
+| Moon | Taurus | Scorpio | 
+
+| Mercury | Virgo | Pisces | 
+
+| Venus | Pisces | Virgo | 
+
+| Mars | Capricorn | Cancer | 
+
+| Jupiter | Cancer | Capricorn | 
+
+| Saturn | Libra | Aries | 
+
+### Table of Triplicity Rulers (Dorothean System) 
+
+[Please reference sources][31][34] for the complete traditional system of triplicities. The  triplicities divide the zodiac into four groups of three signs based on the classical elements (Fire,  Earth, Air, Water). Each triplicity has three planetary rulers—one for day charts, one for night  charts, and one for mixed or participating rulership. A planet in its triplicity receives \+3 points in   
+the dignity calculation. The triplicity system differs from the modern system, with the Dorothean  system being the most widely accepted in classical texts. 
+
+| Triplicity | Element | Day Ruler | Night Ruler | Participating Ruler | 
+
+|------------|---------|-----------|-------------|-------------------| 
+
+| Fire | Aries, Leo, Sagittarius | Sun | Jupiter | Saturn | 
+
+| Earth | Taurus, Virgo, Capricorn | Venus | Moon | Mars | 
+
+| Air | Gemini, Libra, Aquarius | Saturn | Mercury | Jupiter | 
+
+| Water | Cancer, Scorpio, Pisces | Venus | Mars | Moon | 
+
+### Table of Terms (Egyptian System) 
+
+The bounds or terms are subdivisions of each zodiacal sign into five unequal regions, each  ruled by one of the five non-luminary planets[16][32][35][44][47]. A planet in its own terms  receives \+2 points in the dignity calculation. The Egyptian terms system, also known as the  Babylonian terms in recent scholarship, differs from both the Ptolemaic and Chaldean systems  but has proven most effective in practice. The boundaries vary by sign, with each planetary ruler  receiving a different number of degrees based on empirical observation and ancient omen  literature. 
+
+| Sign | 0°–6° | 6°–12° | 12°–20° | 20°–25° | 25°–30° | 
+
+|------|-------|--------|---------|---------|---------| 
+
+| Aries | Jupiter | Venus | Mercury | Mars | Saturn | 
+
+| Taurus | Mercury | Moon | Saturn | Jupiter | Venus | 
+
+| Gemini | Jupiter | Mars | Sun | Venus | Mercury | 
+
+| Cancer | Venus | Mercury | Moon | Saturn | Jupiter | 
+
+| Leo | Saturn | Jupiter | Mars | Sun | Venus | 
+
+| Virgo | Sun | Venus | Mercury | Saturn | Moon | 
+
+| Libra | Moon | Saturn | Jupiter | Mercury | Venus | 
+
+| Scorpio | Mars | Sun | Venus | Mercury | Saturn | 
+
+| Sagittarius | Mercury | Moon | Saturn | Jupiter | Venus | 
+
+| Capricorn | Jupiter | Mars | Sun | Venus | Mercury | 
+
+| Aquarius | Mercury | Jupiter | Venus | Saturn | Moon | 
+
+| Pisces | Saturn | Jupiter | Mars | Sun | Venus | 
+
+### Table of Faces or Decans (Chaldean System) 
+
+The faces or decans are ten-degree subdivisions of each zodiacal sign, with each decan ruled  by a planet in the Chaldean order[38][41][49]. A planet in its own face receives \+1 point in the  dignity calculation. The Chaldean order follows the traditional sequence of planetary spheres  from slowest-moving (Saturn) to fastest-moving (Moon): Saturn, Jupiter, Mars, Sun, Venus,  Mercury, Moon. This sequence repeats throughout the zodiac, with each decan receiving  rulership according to this fixed rotation.  
+| Sign | 0°–10° Decan 1 | 10°–20° Decan 2 | 20°–30° Decan 3 | 
+
+|------|----------------|-----------------|-----------------| 
+
+| Aries | Mars | Sun | Venus | 
+
+| Taurus | Mercury | Moon | Saturn | 
+
+| Gemini | Jupiter | Mars | Sun | 
+
+| Cancer | Venus | Mercury | Moon | 
+
+| Leo | Saturn | Jupiter | Mars | 
+
+| Virgo | Sun | Venus | Mercury | 
+
+| Libra | Moon | Saturn | Jupiter | 
+
+| Scorpio | Mars | Sun | Venus | 
+
+| Sagittarius | Mercury | Moon | Saturn | 
+
+| Capricorn | Jupiter | Mars | Sun | 
+
+| Aquarius | Venus | Mercury | Moon | 
+
+| Pisces | Saturn | Jupiter | Mars | 
+
+
+## Chapter 7b: The Fixed Stars (The Eighth Sphere)
+
+
+## Chapter 7a: Monomoiria—The Micro-Dignity
+
+
+## Chapter 7b: The Fixed Stars and Constellations
+
+Beyond the planetary spheres lie the Fixed Stars, which operate with intense, binary power—bestowing either eminence or ruin without the modulation of the planets.
+
+### The Royal Stars (Watchers of the Directions)
+1.  **Aldebaran (9° Gemini):** Watcher of the East. Mars/Venus nature. Bestows honor and integrity, but falls if integrity is compromised.
+2.  **Regulus (29° Leo/0° Virgo):** Watcher of the North. Mars/Jupiter nature. Bestows great power and authority, but warns against revenge.
+3.  **Antares (9° Sagittarius):** Watcher of the West. Mars/Jupiter nature. Extreme intensity and success, but danger of self-destruction/obsession.
+4.  **Fomalhaut (3° Pisces):** Watcher of the South. Venus/Mercury nature. Artistic and spiritual eminence, but warns against corruption.
+
+### Other Critical Stars
+*   **Algol (26° Taurus):** The Demon Star. Saturn/Jupiter nature. Associated with beheading (losing one's head), intense passion, and protection from evil if mastered.
+*   **Spica (23° Libra):** The Ear of Corn. Venus/Mars nature. Brilliant gifts, protection, and success.
+*   **Sirius (14° Cancer):** The Dog Star. Jupiter/Mars nature. Burning ambition and mundane renown.
+
+**Orbs:** 
+*   **1st Magnitude:** 2° 30'
+*   **2nd Magnitude:** 1° 30'
+*   **Conjunctions Only:** Traditional doctrine prioritizes conjunctions (especially parans) over aspects.
+

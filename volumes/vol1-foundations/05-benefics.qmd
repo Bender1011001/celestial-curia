@@ -1,8 +1,52 @@
 # The Benefics: Jupiter and Venus
 
-> [!NOTE]
-> Source text for Jupiter/Venus delineations is currently missing.
+4. Jupiter: The Greater Benefic through the Zodiac
+Jupiter (Zeus) represents growth, fertility, honor, and priesthood. Its condition determines the native's capacity for wealth and progeny.
+4.1 Jupiter in the Fiery Signs
+Jupiter in Aries
+* Firmicus Maternus: If the Horoscope is Aries, Jupiter here "strengthens the native against the venom of envy." It grants "fame," "statues," and "crowns".7 It indicates leadership in religious or legal matters.
+* Abu Ma'shar: Jupiter (Hot/Moist) in Aries (Hot/Dry). The Heat is amplified, leading to "great activity" and "zeal" in religious or legal matters. The Dryness of Aries checks Jupiter's Moisture, preventing excessive indulgence.
+* Al-Biruni: Aries is a "Royal" sign (Equinoctial). Jupiter here signifies "judges of the king" or "military chaplains."
+Jupiter in Leo
+* Firmicus Maternus: Grants "glory," "profit," and "insignia of dignity." If in the Horoscope, it grants "one daughter".7
+* Paulus Alexandrinus: Jupiter rules the first decan of Gemini and the second decan of Leo.4 In Leo, Jupiter supports the Solar authority, expanding the native's reputation.
+Jupiter in Sagittarius (Domicile)
+* Firmicus Maternus: In the Thema Mundi, Jupiter rules 15° Sagittarius.1 This is the "second age of the world," representing the purging of morals and the establishment of civilization. It signifies "high priesthood," "prophecy," and "governance."
+* Al-Biruni: Signifies "horses," "nobility," and "wealth from foreign lands."
+4.2 Jupiter in the Watery Signs (Exaltation & Domicile)
+Jupiter in Cancer (Exaltation)
+* Firmicus Maternus: Exalted at 15° Cancer.8 This placement signifies "divine and immortal nature" if aspected by the Moon. It indicates "abundance of all things," "high office," and "many children."
+* Abu Ma'shar: The perfect mixture. Jupiter (Hot/Moist) in Cancer (Cold/Moist). The moisture ensures infinite growth and fertility. It signifies "life," "growth," and "nutritive faculties".10
+* Al-Biruni: Indicates "sweet fruits," "abundant crops," and "fertility of the earth".6
+Jupiter in Pisces (Domicile)
+* Firmicus Maternus: Jupiter's nocturnal house. It signifies "hidden wealth," "maritime commerce," and "secret religious rites."
+* Rhetorius: Associates Jupiter in Pisces with "temple service" and "philanthropy."
+4.3 Jupiter in the Earthy and Airy Signs
+Jupiter in Virgo (Detriment)
+* Firmicus Maternus: In the house of Mercury (Jupiter's opposite/servant). Jupiter is "depressed." It signifies "hypocrisy" or "struggle with subordinates." The expansive nature of Jupiter is cramped by the detail-oriented nature of Virgo.
+* Al-Biruni: "Scholars," "scribes," and "accountants." Jupiter's wisdom is applied to the minutiae of Mercury.
+Jupiter in Gemini (Detriment)
+* Paulus Alexandrinus: Jupiter rules the first decan of Gemini (0-10°).4 This gives an initial burst of success or "windfall" early in the sign, despite the general detriment.
+* Al-Biruni: "Windy" and "Loud-Voiced." Jupiter here signifies "orators," "lawyers," and "poets."
+________________
 
-## Content Pending
-
-This chapter requires the migration of specific source text regarding The Benefics: Jupiter and Venus.
+7. Venus: The Lesser Benefic through the Zodiac
+Venus (Aphrodite) represents union, pleasure, aesthetics, and fertility.
+7.1 Venus in the Signs of Dignity
+Venus in Pisces (Exaltation)
+* Firmicus Maternus: Exalted at 27° Pisces.8 The ultimate placement for Venus. "Divine love," "mysticism," "artistic genius." It grants "success through women" and "luxurious living."
+* Al-Biruni: Pisces is "Mute" and "Fertile." Venus here signifies "hidden pleasures," "secret love affairs," and "abundant offspring".9
+Venus in Libra (Domicile)
+* Firmicus Maternus: Venus's diurnal (masculine) house. "Musicians," "singers," "poets." It signifies "public marriage" and "social grace."
+* Paulus Alexandrinus: Venus rules the first decan of Cancer and the third decan of Aries 4, but in Libra, she has Triplicity rulership by day.
+Venus in Taurus (Domicile)
+* Firmicus Maternus: Venus's nocturnal (feminine) house. "Gardeners," "perfumers," "lovers of luxury." It signifies "physical beauty" and "sensual indulgence."
+* Al-Biruni: "Sweet-smelling trees," "jewelry," "silver."
+7.2 Venus in the Signs of Debility
+Venus in Virgo (Fall)
+* Firmicus Maternus: Depressed in Virgo. "Sterility," "unhappy marriage," "scandals." The critical nature of Virgo dissects the unifying nature of Venus.
+* Rhetorius: "Common, vulgar occupation" (if poorly placed). "Servants," "subordinates."
+Venus in Aries (Detriment)
+* Firmicus Maternus: Opposite Libra. "Impulsive love," "promiscuity," "scandal." Venus is martialized—"aggressive in love."
+* Rhetorius: With Mars and Saturn here, "carpenters, tanners, leather workers" (cutting skin).5
+________________

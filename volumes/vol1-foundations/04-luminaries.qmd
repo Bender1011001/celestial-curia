@@ -1,8 +1,41 @@
 # The Luminaries: Sun and Moon
 
-> [!NOTE]
-> Source text for Sun/Moon delineations is currently missing.
+6. The Sun: The Luminary of Sect and Authority
+The Sun (Helios) is the "mind of the universe" (mens mundi). Its sign placement determines the vitality and the "rank" of the native.
+6.1 The Sun in the Signs of Dignity
+Sun in Aries (Exaltation)
+* Firmicus Maternus: Exalted at 19° Aries.8 It signifies "kings," "emperors," and "gold." It is the height of solar power.
+* Rhetorius: "Brings the vernal change... serene air." It signifies "vitality," "growth," and "success in youth".11
+* Abu Ma'shar: "Like a King in his kingdom." It extends the "years of the reign" and grants "victory".12
+* Paulus Alexandrinus: Sun rules the second decan of Aries (10-20°).4
+Sun in Leo (Domicile)
+* Firmicus Maternus: The Sun rules Leo, the 15° of which is the Sun's position in the Thema Mundi.1 It signifies "stability," "honors," and "public fame."
+* Al-Biruni: "Tall trees," "gold," "palaces." It is a "Half-Voiced" sign, indicating authority that does not need to shout to be heard.
+6.2 The Sun in the Other Triplicities
+Sun in Libra (Fall)
+* Firmicus Maternus: The Sun is depressed (opposite Aries). It indicates "short life" (if afflicted), "loss of honors," or "subservience." The light is diminishing (Autumnal Equinox).
+* Rhetorius: "Brings the autumnal tropic... air turns colder".11 Signifies a "cooling" of fortunes in middle age.
+Sun in Aquarius (Detriment)
+* Firmicus Maternus: Opposite Leo. The Sun is in the sign of Saturn (darkness/cold). It signifies "enemies," "exile," and "health issues" (heart/circulation).
+* Al-Biruni: Aquarius is the "enemy" of the Sun. It signifies "opposition to authority" or "rebellion."
+________________
 
-## Content Pending
-
-This chapter requires the migration of specific source text regarding The Luminaries: Sun and Moon.
+9. The Moon: The Luminary of Body and Fortune
+The Moon (Selene) represents the physical body, the mother, and the fluctuations of fortune.
+9.1 Moon in the Signs of Dignity
+Moon in Taurus (Exaltation)
+* Firmicus Maternus: Exalted at 3° Taurus.8 "Great good fortune," "wealth from the earth," "stable health."
+* Al-Biruni: "Cattle," "fertile land," "white stones," "silver".6
+* Paulus Alexandrinus: Moon rules the second decan of Taurus.4
+Moon in Cancer (Domicile)
+* Firmicus Maternus: The Thema Mundi position.1 "High birth," "many voyages," "popularity."
+* Paulus Alexandrinus: Moon rules the third decan of Cancer.
+* Rhetorius: " Sailors," "midwives," "public figures."
+9.2 Moon in the Signs of Debility
+Moon in Scorpio (Fall)
+* Firmicus Maternus: Depressed at 3° Scorpio. "Sickness," "danger from water," "treachery of women." The Moon is "besieged" by the martial waters of Scorpio.
+* Abu Ma'shar: Cold/Moist Moon in Cold/Moist/Martial sign. Excessive moisture leading to "rot" or "corruption."
+Moon in Capricorn (Detriment)
+* Firmicus Maternus: Opposite Cancer. "Thin body," "chronic illness," "poverty in early life." The Saturnine restriction "freezes" the Lunar flow.
+* Al-Biruni: "Goats," "climbing dangerous places," "exile."
+________________

@@ -1,8 +1,20 @@
 # Mercury: The Scribe
 
-> [!NOTE]
-> Source text for Mercury delineation is currently missing.
-
-## Content Pending
-
-This chapter requires the migration of specific source text regarding Mercury: The Scribe.
+8. Mercury: The Common Star through the Zodiac
+Mercury (Hermes) is the "common" star (communis), taking the nature of the planets it joins. Its delineations focus on intellect, commerce, and speech.
+8.1 Mercury in the Signs of Dignity
+Mercury in Virgo (Exaltation & Domicile)
+* Firmicus Maternus: Mercury is exalted at 15° Virgo and also rules the sign.8 This is the "scribe," the "scholar," the "administrator." High intelligence and analytical ability.
+* Paulus Alexandrinus: Mercury rules the third decan of Virgo.
+* Al-Biruni: "Accountants," "mathematicians," "granary keepers."
+Mercury in Gemini (Domicile)
+* Firmicus Maternus: Mercury's diurnal house. "Orators," "philosophers," "messengers." Quick wit and versatility.
+* Al-Biruni: Gemini is "Loud-Voiced." Mercury here signifies "public speaking," "announcements," "news."
+8.2 Mercury in the Signs of Debility
+Mercury in Pisces (Fall/Detriment)
+* Firmicus Maternus: Mercury is depressed. "Confused speech," "poor memory," "deception." The watery nature of Pisces dissolves the distinctions Mercury tries to make.
+* Al-Biruni: "Fishermen," "sailors," "wandering poets."
+Mercury in Sagittarius (Detriment)
+* Firmicus Maternus: Opposite Gemini. "Blasphemy," "errors in judgment," "tactlessness." Mercury is too "broad" here, missing the details.
+* Rhetorius: "Interpreters," "diplomats" (dealing with foreigners), but often "misunderstood."
+________________

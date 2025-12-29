@@ -1,0 +1,23 @@
+# The Scheme of Planetary Joys
+
+## The Conceptual Framework
+
+The Planetary Joys scheme is one of the oldest components of the Hellenistic astrological tradition, likely predating the specific house significations we use today. In this scheme, each of the seven classical planets is assigned to a specific house where it is said to "rejoice."
+
+Unlike Essential Dignity (which depends on Zodiacal Signs), Planetary Joy depends on the House (topos). A planet in its Joy is akin to a minister working in their own department—they have access to the resources and environment best suited to their nature.
+
+## Table of Planetary Joys
+
+| Planet | House | Name of House | Rationale |
+| :--- | :--- | :--- | :--- |
+| **Mercury** | **1st** | The Helm | Mercury steers the soul; the interface between mind and world. |
+| **Moon** | **3rd** | Goddess | The Moon travels frequently (short journeys) and governs community/kin. |
+| **Venus** | **5th** | Good Fortune | House of pleasure, sex, and creative offspring. Venus thrives here. |
+| **Mars** | **6th** | Bad Fortune | Mars loves the heat of friction, work, and overcoming illness. |
+| **Sun** | **9th** | God | The place of solar illumination, prophecy, and higher mind. |
+| **Jupiter** | **11th** | Good Spirit | The most fortunate house for the Greater Benefic; alliances and hopes. |
+| **Saturn** | **12th** | Bad Spirit | Saturn rules isolation, imprisonment, and the "dark night" of the soul. |
+
+## Interpretive Implications
+
+Planets in their Joy are functionally strengthened. A malefic in its Joy (Mars in 6th, Saturn in 12th) is "sect-compliant" in a unique way—it has a legitimate job to do (fighting illness or managing necessary restriction) and is therefore less likely to cause chaotic harm than if it were in a random house.

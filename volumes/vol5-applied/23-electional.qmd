@@ -1,8 +1,90 @@
-# Electional Astrology
+# Electional Protocols
 
-> [!NOTE]
-> Content pending migration.
+## II. Electional Protocols: The Selection Algorithm
 
-## Under Construction
+### Input Parameters Required
 
-This chapter is currently being drafted.
+1. **Statement of Intent** — Clear one-sentence description (e.g., "Begin a new business")
+2. **Time Window** — Specific dates and hours available
+3. **External Constraints** — Appointments, legal requirements, personal obligations
+
+### The Twelve-Step Selection Algorithm
+
+#### Step 1: Establish Significators
+
+| Event Type | Primary Significator | Master Significators |
+|------------|---------------------|---------------------|
+| Business launch | 10th house ruler, Sun | Ascendant ruler, Moon |
+| Marriage | 7th house ruler, Venus | Ascendant ruler, Moon |
+| Medical procedure | 6th house ruler | Ascendant ruler, Moon |
+| Legal action | 9th house ruler, Jupiter | Ascendant ruler, Moon |
+
+#### Step 2: Filter by Lunar Phase
+
+| Event Type | Preferred Phase |
+|------------|-----------------|
+| Growth, initiation, establishment | Waxing (New → Full) |
+| Completion, release, dissolution | Waning (Full → New) |
+
+#### Step 3: Eliminate Void-of-Course Moon
+
+Calculate when Moon perfects its last major aspect before leaving its sign. Eliminate these periods (typically 2-6 hours/day).
+
+#### Step 4: Check Retrograde Status
+
+| Event Type | Avoid Retrograde |
+|------------|-----------------|
+| Contracts, communication | Mercury |
+| Relationships, finances | Venus |
+| Action, competition | Mars |
+
+#### Step 5: Evaluate Significator Dignity
+
+Identify times when primary significator occupies essential dignity (domicile, exaltation).
+
+#### Step 6: Assess Angular Placement
+
+Rank times when primary significator occupies angular houses (1st, 4th, 7th, 10th) higher.
+
+#### Step 7: Examine Ascendant Aspects
+
+| Configuration | Ranking |
+|---------------|---------|
+| Jupiter/Venus conjunct or sextile Ascendant | Optimal |
+| No aspects to Ascendant | Neutral |
+| Saturn/Mars square or conjunct Ascendant | Suboptimal |
+
+#### Step 8: Evaluate Moon's Aspects to Significator
+
+Moon applying to significator by trine/sextile/conjunction = Most favorable
+
+#### Step 9: Check Sect Compatibility
+
+- **Diurnal charts:** Jupiter and Mars above horizon preferred
+- **Nocturnal charts:** Venus and Mars below horizon preferred
+
+#### Step 10: Evaluate Part of Fortune
+
+Ideally angular with well-placed, unafflicted ruler.
+
+#### Step 11: Assess Luminary Dignities
+
+Check Sun (day charts) or Moon (night charts) for essential dignity.
+
+#### Step 12: Synthesize Composite Score
+
+| Factor | Weight |
+|--------|--------|
+| Significator dignity | 20% |
+| Ascendant ruler condition | 20% |
+| Angular placements | 15% |
+| Moon aspects | 15% |
+| Benefic transits | 10% |
+| Part of Fortune | 10% |
+| Luminaries | 10% |
+
+### Output Format
+
+Present 3-5 optimal time windows ranked by composite score, with explanatory rationale for each.
+
+---

@@ -1,8 +1,50 @@
-# Natal Practice
+# Advanced Natal and Synastry
 
-> [!NOTE]
-> General synthesis chapter.
+## I. Synastry Overlay Mechanics: The Almuten-to-Hyleg Bridge
 
-## Under Construction
+### Foundational Principle
 
-This chapter is currently being drafted.
+When Person A's Almuten Figuris (most dignified planet) aspects or conjoins Person B's Hyleg (life-giving point), Person A's essential governing force directly influences the vitality and life direction of Person B.
+
+### Computational Algorithm
+
+**Step 1:** Calculate both charts completely:
+- Person A's Almuten via point-scoring system
+- Person B's Hyleg via hierarchical protocol (Sun/Moon in angles → Ascendant → Part of Fortune)
+
+**Step 2:** Assess the aspect relationship:
+
+| Aspect | Base Value |
+|--------|------------|
+| Conjunction | +5 |
+| Trine/Sextile | +3 |
+| No aspect | 0 |
+| Square | -2 |
+| Opposition | -1 |
+
+**Step 3:** Apply modifiers:
+
+```
+Almuten-Hyleg Strength = 
+    Aspect_Value
+  + (Almuten_Dignity_Score ÷ 10)      [yields 0 to +2.5]
+  + Almuten_House_Modifier            [angular +2, succedent +1, cadent -1]
+  + Hyleg_House_Modifier              [angular +2, succedent +1, cadent -1]
+  + Reception_Bonus                   [+1.5 if Almuten in Hyleg's sign dignity]
+```
+
+**Final Range:** -2 to +14 (scale to 0-100 for presentation)
+
+### Asymmetry Recognition
+
+The software must calculate **both directions**:
+- Person A's Almuten → Person B's Hyleg (A vitalizes B)
+- Person B's Almuten → Person A's Hyleg (B vitalizes A)
+
+Present these separately to reveal power dynamics.
+
+### Hierarchical Filtering
+
+Flag when either Hyleg is weak (determined only after Sun/Moon failed to qualify). The Almuten-Hyleg interaction carries greatest weight when both are strongly established.
+
+---

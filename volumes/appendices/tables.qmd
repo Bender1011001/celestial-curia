@@ -1,8 +1,34 @@
 # Reference Tables
 
-> [!NOTE]
-> Essential dignity and years tables.
+## Table of Essential Dignities
 
-## Under Construction
+| Sign | Domicile (Ruler) | Exaltation | Triplicity (Day/Night) | Detriment | Fall |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Aries** | Mars | Sun (19°) | Sun / Jupiter | Venus | Saturn |
+| **Taurus** | Venus | Moon (3°) | Venus / Moon | Mars | N/A |
+| **Gemini** | Mercury | N/A | Saturn / Mercury | Jupiter | N/A |
+| **Cancer** | Moon | Jupiter (15°) | Venus / Mars | Saturn | Mars |
+| **Leo** | Sun | N/A | Sun / Jupiter | Saturn | N/A |
+| **Virgo** | Mercury | Mercury (15°) | Venus / Moon | Jupiter | Venus |
+| **Libra** | Venus | Saturn (21°) | Saturn / Mercury | Mars | Sun |
+| **Scorpio** | Mars | N/A | Venus / Mars | Venus | Moon |
+| **Sagittarius** | Jupiter | N/A | Sun / Jupiter | Mercury | N/A |
+| **Capricorn** | Saturn | Mars (28°) | Venus / Moon | Moon | Jupiter |
+| **Aquarius** | Saturn | N/A | Saturn / Mercury | Sun | N/A |
+| **Pisces** | Jupiter | Venus (27°) | Venus / Mars | Mercury | Mercury |
 
-This chapter is currently being drafted.
+> *Note: Triplicity rulers listed follow the Dorothean system.*
+
+## The Chaldean Order (Planetary Spheres)
+
+1.  **Saturn** (Slowest / Outermost)
+2.  **Jupiter**
+3.  **Mars**
+4.  **Sun**
+5.  **Venus**
+6.  **Mercury**
+7.  **Moon** (Fastest / Sublunar)
+
+## The Egyptian Terms (Bounds)
+
+*Refer to Valens, Anthology, Book I for the complete table of unequal sign divisions.*

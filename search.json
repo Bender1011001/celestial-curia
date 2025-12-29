@@ -353,23 +353,45 @@
   {
     "objectID": "volumes/vol5-applied/22-natal.html",
     "href": "volumes/vol5-applied/22-natal.html",
-    "title": "14  Natal Practice",
+    "title": "14  Advanced Natal and Synastry",
     "section": "",
-    "text": "14.1 Under Construction\nThis chapter is currently being drafted.",
+    "text": "14.1 I. Synastry Overlay Mechanics: The Almuten-to-Hyleg Bridge",
     "crumbs": [
       "Volume V: Applied Astrology and Theurgy",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Natal Practice</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Advanced Natal and Synastry</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/vol5-applied/22-natal.html#i.-synastry-overlay-mechanics-the-almuten-to-hyleg-bridge",
+    "href": "volumes/vol5-applied/22-natal.html#i.-synastry-overlay-mechanics-the-almuten-to-hyleg-bridge",
+    "title": "14  Advanced Natal and Synastry",
+    "section": "",
+    "text": "14.1.1 Foundational Principle\nWhen Person A’s Almuten Figuris (most dignified planet) aspects or conjoins Person B’s Hyleg (life-giving point), Person A’s essential governing force directly influences the vitality and life direction of Person B.\n\n\n14.1.2 Computational Algorithm\nStep 1: Calculate both charts completely: - Person A’s Almuten via point-scoring system - Person B’s Hyleg via hierarchical protocol (Sun/Moon in angles → Ascendant → Part of Fortune)\nStep 2: Assess the aspect relationship:\n\n\n\nAspect\nBase Value\n\n\n\n\nConjunction\n+5\n\n\nTrine/Sextile\n+3\n\n\nNo aspect\n0\n\n\nSquare\n-2\n\n\nOpposition\n-1\n\n\n\nStep 3: Apply modifiers:\nAlmuten-Hyleg Strength = \n    Aspect_Value\n  + (Almuten_Dignity_Score ÷ 10)      [yields 0 to +2.5]\n  + Almuten_House_Modifier            [angular +2, succedent +1, cadent -1]\n  + Hyleg_House_Modifier              [angular +2, succedent +1, cadent -1]\n  + Reception_Bonus                   [+1.5 if Almuten in Hyleg's sign dignity]\nFinal Range: -2 to +14 (scale to 0-100 for presentation)\n\n\n14.1.3 Asymmetry Recognition\nThe software must calculate both directions: - Person A’s Almuten → Person B’s Hyleg (A vitalizes B) - Person B’s Almuten → Person A’s Hyleg (B vitalizes A)\nPresent these separately to reveal power dynamics.\n\n\n14.1.4 Hierarchical Filtering\nFlag when either Hyleg is weak (determined only after Sun/Moon failed to qualify). The Almuten-Hyleg interaction carries greatest weight when both are strongly established.",
+    "crumbs": [
+      "Volume V: Applied Astrology and Theurgy",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Advanced Natal and Synastry</span>"
     ]
   },
   {
     "objectID": "volumes/vol5-applied/23-electional.html",
     "href": "volumes/vol5-applied/23-electional.html",
-    "title": "15  Electional Astrology",
+    "title": "15  Electional Protocols",
     "section": "",
-    "text": "15.1 Under Construction\nThis chapter is currently being drafted.",
+    "text": "15.1 II. Electional Protocols: The Selection Algorithm",
     "crumbs": [
       "Volume V: Applied Astrology and Theurgy",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Electional Astrology</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Electional Protocols</span>"
+    ]
+  },
+  {
+    "objectID": "volumes/vol5-applied/23-electional.html#ii.-electional-protocols-the-selection-algorithm",
+    "href": "volumes/vol5-applied/23-electional.html#ii.-electional-protocols-the-selection-algorithm",
+    "title": "15  Electional Protocols",
+    "section": "",
+    "text": "15.1.1 Input Parameters Required\n\nStatement of Intent — Clear one-sentence description (e.g., “Begin a new business”)\nTime Window — Specific dates and hours available\nExternal Constraints — Appointments, legal requirements, personal obligations\n\n\n\n15.1.2 The Twelve-Step Selection Algorithm\n\n15.1.2.1 Step 1: Establish Significators\n\n\n\nEvent Type\nPrimary Significator\nMaster Significators\n\n\n\n\nBusiness launch\n10th house ruler, Sun\nAscendant ruler, Moon\n\n\nMarriage\n7th house ruler, Venus\nAscendant ruler, Moon\n\n\nMedical procedure\n6th house ruler\nAscendant ruler, Moon\n\n\nLegal action\n9th house ruler, Jupiter\nAscendant ruler, Moon\n\n\n\n\n\n15.1.2.2 Step 2: Filter by Lunar Phase\n\n\n\nEvent Type\nPreferred Phase\n\n\n\n\nGrowth, initiation, establishment\nWaxing (New → Full)\n\n\nCompletion, release, dissolution\nWaning (Full → New)\n\n\n\n\n\n15.1.2.3 Step 3: Eliminate Void-of-Course Moon\nCalculate when Moon perfects its last major aspect before leaving its sign. Eliminate these periods (typically 2-6 hours/day).\n\n\n15.1.2.4 Step 4: Check Retrograde Status\n\n\n\nEvent Type\nAvoid Retrograde\n\n\n\n\nContracts, communication\nMercury\n\n\nRelationships, finances\nVenus\n\n\nAction, competition\nMars\n\n\n\n\n\n15.1.2.5 Step 5: Evaluate Significator Dignity\nIdentify times when primary significator occupies essential dignity (domicile, exaltation).\n\n\n15.1.2.6 Step 6: Assess Angular Placement\nRank times when primary significator occupies angular houses (1st, 4th, 7th, 10th) higher.\n\n\n15.1.2.7 Step 7: Examine Ascendant Aspects\n\n\n\nConfiguration\nRanking\n\n\n\n\nJupiter/Venus conjunct or sextile Ascendant\nOptimal\n\n\nNo aspects to Ascendant\nNeutral\n\n\nSaturn/Mars square or conjunct Ascendant\nSuboptimal\n\n\n\n\n\n15.1.2.8 Step 8: Evaluate Moon’s Aspects to Significator\nMoon applying to significator by trine/sextile/conjunction = Most favorable\n\n\n15.1.2.9 Step 9: Check Sect Compatibility\n\nDiurnal charts: Jupiter and Mars above horizon preferred\nNocturnal charts: Venus and Mars below horizon preferred\n\n\n\n15.1.2.10 Step 10: Evaluate Part of Fortune\nIdeally angular with well-placed, unafflicted ruler.\n\n\n15.1.2.11 Step 11: Assess Luminary Dignities\nCheck Sun (day charts) or Moon (night charts) for essential dignity.\n\n\n15.1.2.12 Step 12: Synthesize Composite Score\n\n\n\nFactor\nWeight\n\n\n\n\nSignificator dignity\n20%\n\n\nAscendant ruler condition\n20%\n\n\nAngular placements\n15%\n\n\nMoon aspects\n15%\n\n\nBenefic transits\n10%\n\n\nPart of Fortune\n10%\n\n\nLuminaries\n10%\n\n\n\n\n\n\n15.1.3 Output Format\nPresent 3-5 optimal time windows ranked by composite score, with explanatory rationale for each.",
+    "crumbs": [
+      "Volume V: Applied Astrology and Theurgy",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Electional Protocols</span>"
     ]
   },
   {

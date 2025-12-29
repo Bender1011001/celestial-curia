@@ -52,3 +52,6 @@ format:
     documentclass: scrbook
     keep-tex: true
     citation-style: chicago-author-date.csl
+  epub:
+    toc: true
+    number-sections: true
